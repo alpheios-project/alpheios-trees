@@ -75,21 +75,30 @@ class Publication extends Component {
       subDoc: '',
     };
 
+    this.setSubdoc = this.setSubdoc.bind(this);
+    this.setArethusaLoaded = this.setArethusaLoaded.bind(this);
+
     this.arethusa = new ArethusaWrapper();
-    this.arethusaSubDocFun = this.arethusaSubDocFun.bind(this);
   }
 
   componentDidMount() {
     // eslint-disable-next-line no-undef
-    window.arethusaSubDocFun = this.arethusaSubDocFun;
+    window.document.body.addEventListener('ArethusaLoaded',this.setArethusaLoaded);
   }
 
   componentWillUnmount() {
     // eslint-disable-next-line no-undef
-    window.arethusaSubDocFun = undefined;
+    window.document.body.removeEventListener('ArethusaLoaded', this.setArethusaLoaded);
   }
 
-  arethusaSubDocFun(subDoc) {
+  setArethusaLoaded() {
+    document.body.removeEventListener('ArethusaLoaded');
+    this.setSubdoc();
+  }
+
+
+  setSubdoc() {
+    const subDoc = this.arethusa.getSubdoc();
     this.setState({ subDoc });
   }
 
@@ -141,13 +150,13 @@ class Publication extends Component {
           </h2>
           <table className="table">
             <tbody>
-              {author && renderRow('Author', author)}
-              {work && renderRow('Work', work)}
-              {locus && renderLocusRow('Locus', locus, publicationPath)}
-              {subDoc && renderRow('Reference', subDoc)}
-              {editors && renderRow('Editors', editors)}
-              {publicationLink && renderLinkRow('Link', publicationLink)}
-              {notes && renderMarkdownRow('Notes', notes)}
+              {!!author && renderRow('Author', author)}
+              {!!work && renderRow('Work', work)}
+              {!!locus && renderLocusRow('Locus', locus, publicationPath)}
+              {!!subDoc && renderRow('Reference', subDoc)}
+              {!!editors && renderRow('Editors', editors)}
+              {!!publicationLink && renderLinkRow('Link', publicationLink)}
+              {!!notes && renderMarkdownRow('Notes', notes)}
             </tbody>
           </table>
           <div className={styles.treebankWrapper}>
