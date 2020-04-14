@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "76379047ed042c1146835fd0e8dd905b",
+    "revision": "c56dd6cec39408e5fa362504d528269e",
     "url": "/alpheios-trees/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alpheios-trees/static/css/2.0121959d.chunk.css"
   },
   {
-    "revision": "61bcfb99cbeed22f9452",
+    "revision": "28b0f0373cb60299b883",
     "url": "/alpheios-trees/static/css/main.bd98509e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alpheios-trees/static/js/2.3f9293ea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "61bcfb99cbeed22f9452",
-    "url": "/alpheios-trees/static/js/main.30406ebb.chunk.js"
+    "revision": "28b0f0373cb60299b883",
+    "url": "/alpheios-trees/static/js/main.b7a4ed8d.chunk.js"
   },
   {
     "revision": "26d3e4e112f001c83ff6",
