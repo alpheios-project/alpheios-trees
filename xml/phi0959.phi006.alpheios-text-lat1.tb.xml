@@ -52,7 +52,7 @@
 		<word id="10" form=")" lemma="RPAREN1" postag="u--------" head="5" relation="AuxG" />
 		<word id="11" form="adspirate" lemma="adspiro" postag="v2ppma---" head="13" relation="PRED_CO" />
 		<word id="12" form="meis" lemma="meus1" postag="a-p---nd-" head="3" relation="ATR" />
-		<word id="13" form="que" lemma="que1" postag="c--------" head="0" relation="COORD" />
+		<word id="13" form="-que" lemma="que1" postag="c--------" head="0" relation="COORD" />
 		<word id="14" form="prima" lemma="primus1" postag="a-s---fb-" head="16" relation="ATR" />
 		<word id="15" form="ab" lemma="ab1" postag="r--------" head="21" relation="AuxP" />
 		<word id="16" form="origine" lemma="origo1" postag="n-s---fb-" head="15" relation="ADV" />
@@ -103,7 +103,7 @@
 		<word id="8" form="nisi" lemma="nisi1" postag="c--------" head="7" relation="AuxC" />
 		<word id="9" form="pondus" lemma="pondus1" postag="n-s---na-" head="11" relation="OBJ_CO" />
 		<word id="10" form="iners" lemma="iners1" postag="a-s---na-" head="9" relation="ATR" />
-		<word id="11" form="que" lemma="que1" postag="c--------" head="8" relation="COORD" />
+		<word id="11" form="-que" lemma="que1" postag="c--------" head="8" relation="COORD" />
 		<word id="12" form="congesta" lemma="congero1" postag="t-prppna-" head="18" relation="ATR" />
 		<word id="13" form="eodem" lemma="eodem1" postag="d--------" head="12" relation="ADV" />
 		<word id="14" form="non" lemma="non1" postag="d--------" head="15" relation="AuxZ" />
