@@ -30,18 +30,8 @@ class ArethusaWrapper {
   }
 
   render(doc, chunk, { config, w }) {
-    let words = [];
-    if (w) {
-      words.push(...w);
-    }
     // eslint-disable-next-line no-undef
     const { Arethusa, $ } = window;
-
-    let wordsDiffer = (a,b) => {
-      let aList = a.sort().join(',');
-      let bList = b.sort().join(',');
-      return aList !== bList;
-    };
 
     if (this.widget) {
       if (this.doc === doc && (this.chunk !== chunk || wordsDiffer(this.w, w))) {
@@ -83,11 +73,6 @@ class ArethusaWrapper {
 
   findWord(sentenceId, word, prefix, suffix) {
     return this.api.findWord(sentenceId, word, prefix, suffix);
-  }
-
-  findWord(sentenceId,word,prefix,suffix) {
-    console.info(`Find ${word} ${prefix} ${suffix}`);
-    return this.widget.api().findWord(sentenceId,word,prefix,suffix);
   }
 }
 
