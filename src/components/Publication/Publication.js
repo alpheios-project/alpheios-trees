@@ -77,7 +77,6 @@ class Publication extends Component {
     };
 
     this.setSubdoc = this.setSubdoc.bind(this);
-    this.setArethusaLoaded = this.setArethusaLoaded.bind(this);
 
     this.arethusa = new ArethusaWrapper();
   }
@@ -101,12 +100,6 @@ class Publication extends Component {
     // eslint-disable-next-line no-undef
     window.document.body.removeEventListener('ArethusaLoaded', this.setSubdoc);
   }
-
-  setArethusaLoaded() {
-    document.body.removeEventListener('ArethusaLoaded');
-    this.setSubdoc();
-  }
-
 
   setSubdoc() {
     const subDoc = this.arethusa.getSubdoc();
