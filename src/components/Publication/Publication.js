@@ -72,6 +72,7 @@ class Publication extends Component {
     super(props);
 
     this.state = {
+      arethusaLoaded: false,
       subDoc: '',
     };
 
@@ -83,12 +84,22 @@ class Publication extends Component {
 
   componentDidMount() {
     // eslint-disable-next-line no-undef
-    window.document.body.addEventListener('ArethusaLoaded',this.setArethusaLoaded);
+    window.document.body.addEventListener('ArethusaLoaded', this.setSubdoc);
+  }
+
+  componentDidUpdate(prevProps) {
+    const { arethusaLoaded } = this.state;
+    const { location } = this.props;
+    const { location: prevLocation } = prevProps;
+
+    if (arethusaLoaded && location !== prevLocation) {
+      this.setSubdoc();
+    }
   }
 
   componentWillUnmount() {
     // eslint-disable-next-line no-undef
-    window.document.body.removeEventListener('ArethusaLoaded', this.setArethusaLoaded);
+    window.document.body.removeEventListener('ArethusaLoaded', this.setSubdoc);
   }
 
   setArethusaLoaded() {
@@ -99,7 +110,7 @@ class Publication extends Component {
 
   setSubdoc() {
     const subDoc = this.arethusa.getSubdoc();
-    this.setState({ subDoc });
+    this.setState({ subDoc, arethusaLoaded: true });
   }
 
   render() {

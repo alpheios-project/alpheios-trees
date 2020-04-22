@@ -16,7 +16,7 @@ const defaultConfig = {
       'morph',
       'relation',
       'depTree',
-      'search'
+      'search',
     ],
     layouts: [
       {
@@ -94,9 +94,9 @@ const defaultConfig = {
       matchAll: true,
       '@include': 'js/arethusa.morph/configs/morph/lat_attributes.json',
     },
-    search : {
-      "template" : "js/templates/search.html",
-      "regex" : true
+    search: {
+      template: 'js/templates/search.html',
+      regex: true,
     },
     relation: {
       advancedMode: true,

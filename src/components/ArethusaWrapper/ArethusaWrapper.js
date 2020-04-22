@@ -17,6 +17,13 @@ const getConfig = (config) => {
   return defaultConfig;
 };
 
+const wordsDiffer = (a, b) => {
+  const aList = (a || []).sort().join(',');
+  const bList = (b || []).sort().join(',');
+
+  return aList !== bList;
+};
+
 class ArethusaWrapper {
   constructor() {
     this.render = this.render.bind(this);
@@ -37,9 +44,8 @@ class ArethusaWrapper {
     };
 
     if (this.widget) {
-      if (this.doc === doc && 
-          (this.chunk !== chunk || wordsDiffer(this.words,words))) {
-        this.gotoSentence(chunk,words);
+      if (this.doc === doc && (this.chunk !== chunk || wordsDiffer(this.w, w))) {
+        this.gotoSentence(chunk, w);
         removeToastContainer($);
       }
     } else {
@@ -49,28 +55,34 @@ class ArethusaWrapper {
         .on(elementId)
         .from(remoteUrl)
         .with(getConfig(config))
-        .start({ doc, chunk, words });
+        .start({ doc, chunk, w });
+
+      this.api = this.widget.api();
     }
 
     this.doc = doc;
     this.chunk = chunk;
-    this.words = words;
+    this.w = w;
   }
 
-  gotoSentence(chunk,words) {
-    return this.widget.api().gotoSentence(chunk,words);
+  gotoSentence(chunk, words) {
+    return this.api.gotoSentence(chunk, words);
   }
 
   getSubdoc() {
-    return this.widget.api().getSubdoc();
+    return this.api.getSubdoc();
   }
 
   getMorph(sentenceId, wordId) {
-    return this.widget.api().getMorph(sentenceId, wordId);
+    return this.api.getMorph(sentenceId, wordId);
   }
 
   refreshView() {
-    return this.widget.api().refreshView();
+    return this.api.refreshView();
+  }
+
+  findWord(sentenceId, word, prefix, suffix) {
+    return this.api.findWord(sentenceId, word, prefix, suffix);
   }
 
   findWord(sentenceId,word,prefix,suffix) {

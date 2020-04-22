@@ -6,6 +6,7 @@ import {
   ResponseMessage,
   WindowIframeDestination as Destination,
 } from 'alpheios-messaging';
+import { buildQueryString } from '../../lib/params';
 
 import ArethusaWrapper from '../ArethusaWrapper';
 
@@ -18,77 +19,94 @@ const config = {
 
 const error = (request, message, code) => ResponseMessage.Error(request, new Error(message), code);
 
+const redirectLink = ({ wordIds, config: c, sentenceId }) => {
+  const query = buildQueryString({ w: wordIds, config: c });
+
+  if (query === '') {
+    return sentenceId;
+  }
+
+  return `${sentenceId}?${query}`;
+};
+
 class TreebankService extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { redirectTo: null };
-    this.arethusaLoaded = false;
+    this.state = {
+      arethusaLoaded: false,
+      redirectTo: null,
+    };
     this.messageHandler = this.messageHandler.bind(this);
-    this.setArethusaLoaded = this.setArethusaLoaded.bind(this)
+    this.setArethusaLoaded = this.setArethusaLoaded.bind(this);
   }
 
   componentDidMount() {
-    // eslint-disable-next-line no-undef 
-    window.document.body.addEventListener('ArethusaLoaded',this.setArethusaLoaded)
-    // eslint-disable-next-line no-undef
     this.destination = new Destination({ ...config, receiverCB: this.messageHandler });
     this.service = new MessagingService('treebank-service', this.destination);
 
+    // eslint-disable-next-line no-undef
+    window.document.body.addEventListener('ArethusaLoaded', this.setArethusaLoaded);
   }
 
   componentWillUnmount() {
     this.destination.deregister();
+
     // eslint-disable-next-line no-undef
-    window.document.body.removeEventListener('ArethusaLoaded',this.setArethusaLoaded);
+    window.document.body.removeEventListener('ArethusaLoaded', this.setArethusaLoaded);
   }
 
   setArethusaLoaded() {
-    this.arethusaLoaded = true;
-    window.clearInterval(this.interval);
+    this.setState({ arethusaLoaded: true });
   }
 
   messageHandler(request, responseFn) {
     const { arethusa } = this.props;
+    const { arethusaLoaded } = this.state;
     const { body } = request;
     const [name] = Object.keys(body);
 
-    if (this.arethusaLoaded) {
-      try {
-        switch (name) {
-          case 'gotoSentence':
-            let route = body.gotoSentence.sentenceId
-            if (body.gotoSentence.wordIds) {
-              route = `${route}?`;
-              for (let w of body.gotoSentence.wordIds) {
-	        route = `${route}&w=${w}`;
-              }
-            }
-            this.setState({ redirectTo: route });
+    if (!arethusaLoaded) {
+      responseFn(error(request, 'Arethusa is Not Loaded', ResponseMessage.errorCodes.SERVICE_UNINITIALIZED));
+      return;
+    }
 
-            responseFn(ResponseMessage.Success(request, { status: 'success' }));
-            break;
-          case 'getMorph':
-            responseFn(ResponseMessage.Success(
+    try {
+      switch (name) {
+        case 'gotoSentence':
+          this.setState({
+            redirectTo: redirectLink(body.gotoSentence),
+          });
+
+          responseFn(ResponseMessage.Success(request, { status: 'success' }));
+          break;
+        case 'getMorph':
+          responseFn(ResponseMessage.Success(
+            request,
+            arethusa.getMorph(body.getMorph.sentenceId, body.getMorph.wordId),
+          ));
+          break;
+        case 'refreshView':
+          responseFn(ResponseMessage.Success(request, arethusa.refreshView()));
+          break;
+        case 'findWord':
+          responseFn(
+            ResponseMessage.Success(
               request,
-              arethusa.getMorph(body.getMorph.sentenceId, body.getMorph.wordId),
-            ));
-            break;
-          case 'refreshView':
-            responseFn(ResponseMessage.Success(request, arethusa.refreshView()));
-            break;
-          case 'findWord':
-            let args = body.findWord;
-            responseFn(ResponseMessage.Success(request, arethusa.findWord(args.sentenceId,args.word,args.prefix,args.suffix)));
-            break;
-          default:
-            responseFn(error(request,`Unsupported request: ${name}`,ResponseMessage.errorCodes.UNKNOWN_REQUEST));
-        }
-      } catch (err) {
-        responseFn(error(request, err, ResponseMessage.errorCodes.INTERNAL_ERROR));
+              arethusa.findWord(
+                body.findWord.sentenceId,
+                body.findWord.word,
+                body.findWord.prefix,
+                body.findWord.suffix,
+              ),
+            ),
+          );
+          break;
+        default:
+          responseFn(error(request, `Unsupported request: ${name}`, ResponseMessage.errorCodes.UNKNOWN_REQUEST));
       }
-    } else {
-        responseFn(error(request, 'Arethusa is Not Loaded', ResponseMessage.errorCodes.SERVICE_UNINITIALIZED));
+    } catch (err) {
+      responseFn(ResponseMessage.Error(request, err, ResponseMessage.errorCodes.INTERNAL_ERROR));
     }
   }
 
