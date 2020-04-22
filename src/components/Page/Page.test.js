@@ -76,7 +76,7 @@ it('renders a publication with markdown', () => {
   expect(tree).toMatchSnapshot();
 });
 
-it('renders a publication with a subdoc', () => {
+it.skip('renders a publication with a subdoc', () => {
   const component = (
     <MemoryRouter initialEntries={['/on-the-crown-1-50/1']}>
       <Page config={config} />
