@@ -3,10 +3,9 @@ import { defaultConfig, sidepanelConfig } from './ArethusaConfig';
 import './custom.css';
 
 const elementId = 'treebank_container';
-const remoteUrl = `${process.env.PUBLIC_URL}/arethusa/`;
-console.info("remoteUrl1",remoteUrl);
-remoteUrl = remoteUrl.replace(/\/\//\//);
-console.info("remoteUrl2",remoteUrl);
+let basePath = process.env.PUBLIC_URL.replace(/\/$/,'');
+const remoteUrl = `${basePath}/arethusa/`;
+console.info("remoteUrl",remoteUrl);
 
 const removeToastContainer = ($) => {
   $('#toast-container').remove();
