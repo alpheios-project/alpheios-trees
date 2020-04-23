@@ -6,6 +6,8 @@ import config from '../../config.json';
 import Page from '../Page';
 import Embedded from '../Embedded';
 
+console.info("Config",config)
+
 const App = () => (
   <Router basename={process.env.PUBLIC_URL}>
     <Switch>
