@@ -4,6 +4,9 @@ import './custom.css';
 
 const elementId = 'treebank_container';
 const remoteUrl = `${process.env.PUBLIC_URL}/arethusa/`;
+console.info("remoteUrl1",remoteUrl);
+remoteUrl = remoteUrl.replace(/\/\//\//);
+console.info("remoteUrl2",remoteUrl);
 
 const removeToastContainer = ($) => {
   $('#toast-container').remove();

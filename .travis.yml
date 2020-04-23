@@ -10,7 +10,7 @@ cache:
 script:
 - yarn install
 - yarn test --coverage
-- PUBLIC_URL='.' yarn build
+- PUBLIC_URL='./' yarn build
 deploy:
   provider: s3
   cleanup: true
