@@ -4639,6 +4639,7 @@ angular.module('arethusa.core').factory('Tree', [
       // refreshing will rerender it and fix display bugs
       navigator.onRefresh(function() {
         render();
+        calculateSvgHotspots();
         $timeout(applyViewMode, transitionDuration);
       });
 
