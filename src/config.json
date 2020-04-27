@@ -1,102 +1,592 @@
 {
-  "title": "Treebank Publication Template",
-  "subtitle": "Template for publishing collections of treebanks. See the [repository](https://github.com/perseids-publications/treebank-template/) for more information and documentation. If you would like to create a template with your own treebanks, send us a [message](https://docs.google.com/forms/d/e/1FAIpQLSf8yf6B3xlV31x0JKquRuIdXd6LVuX0V7I7id7ZLXbMwDo-UA/viewform).",
-  "doi": "https://dx.doi.org/10.5281/zenodo.3898734",
-  "copyright": "The Perseids Project",
-  "report": "https://github.com/perseids-publications/treebank-template/issues",
-  "github": "https://github.com/perseids-publications/treebank-template/",
-  "twitter": "https://twitter.com/PerseidsProject",
+  "title": "Alpheios Treebank Files",
+  "subtitle": "Treebank Files for Alpheios Texts",
+  "copyright": "© The Perseids Project 2019, The Alpheios Project, LTd. 2020",
+  "report": "https://github.com/alpheios-project/alpheios-trees/issues",
+  "github": "https://github.com/alpheios-project/alpheios-trees",
+  "twitter": "https://twitter.com/Alpheios",
   "collections": [
     {
       "title": "Information",
-      "text": "The Treebank Template is maintained by the Perseids Project. See the [getting started instructions](/getting-started/). Or visit [our homepage](https://www.perseids.org) to learn more."
+      "text": "To learn more visit [our homepage](https://alpheios.net)."
     },
     {
-      "title": "Collection 1",
+      "title": "Latin Collection", 
       "publications": [
         {
-          "path": "on-the-murder-of-eratosthenes",
-          "author": "Lysias",
-          "work": "On the Murder of Eratosthenes",
-          "editors": "Vanessa Gorman",
+          "path": "phi0474.phi052.perseus-lat1",
+          "author": "Cicero",
+          "work": "De Amicitia",
+          "editors": "Bob Gorman",
           "sections": [
             {
-              "locus": "1-50",
-              "path": "on-the-murder-of-eratosthenes-1-50",
-              "xml": "lysias-1-1-50.xml",
-              "link": "https://www.example.com",
-              "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "chunks": { "start": 1, "end": 134 }
+              "locus": "1.1-27.104",
+              "path": "phi0474.phi052.perseus-lat1",
+              "xml": "phi0474.phi052.perseus-lat1.tb.xml",
+              "chunks": { "start": 1, "end": 518 }
             }
           ]
         },
         {
-          "path": "on-the-crown",
-          "author": "Demosthenes",
-          "work": "On the Crown",
-          "editors": "Vanessa Gorman",
+          "path": "lesson_1",
+          "author": "Bob Gorman",
+          "work": "Test Lesson 1",
+          "editors": "Bob Gorman",
           "sections": [
             {
-              "locus": "1-50",
-              "path": "on-the-crown-1-50",
-              "xml": "demosthenes-18-1-50.xml",
-              "notes": "Lorem ipsum dolor sit amet, *consectetur* adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "chunks": { "start": 1, "end": 160 }
+              "locus": "1.1-1.11",
+              "path": "lesson_1",
+              "xml": "rgorman_lesson_1.xml",
+              "chunks": { "start": 1, "end": 11 }
+            }
+          ]
+        },
+        {
+          "path": "phi0620.phi001",
+          "author": "Sextus Propertius",
+          "work": "Elegies",
+          "editors": "various",
+          "sections": [
+            {
+              "locus": "Book 1",
+              "path": "phi0620.phi001.alpheios-text-lat1",
+              "xml": "phi0620.phi001.alpheios-text-lat1.tb.xml",
+              "chunks": { "start": 1, "end": 361 }
             },
             {
-              "locus": "51-100",
-              "path": "on-the-crown-51-100",
-              "xml": "demosthenes-18-51-100.xml",
-              "chunks": { "start": 1, "end": 149 }
+              "locus": "Book 1 (AE1)",
+              "path": "1999.02.0066",
+              "xml": "1999.02.0066.tb.xml",
+              "chunks": { "start": 1, "end": 361 }
+            }
+          ]
+        },
+        {
+          "path": "phi0959.phi006",
+          "author": "Ovid",
+          "work": "Metamorphoses",
+          "editors": "various",
+          "sections": [
+            {
+              "locus": "various",
+              "path": "phi0959.phi006.alpheios-text-lat1",
+              "xml": "phi0959.phi006.alpheios-text-lat1.tb.xml",
+              "chunks": { "start": 1, "end": 316 }
             }
           ]
         }
       ]
     },
     {
-      "title": "Collection 2",
+      "title": "Greek Collection",
       "publications": [
         {
-          "path": "histories",
-          "author": "Herodotus",
-          "work": "The Histories",
-          "editors": "Vanessa Gorman",
+          "path": "1999.01.0021",
+          "author": "Apollodorus",
+          "work": "Library and Epitome",
+          "editors": "various",
           "sections": [
             {
-              "locus": "40-59",
-              "path": "histories-40-59",
-              "xml": "herodotus-1-40-59.xml",
-              "chunks": { "start": 1, "end": 100 }
-            },
-            {
-              "locus": "60-79",
-              "path": "histories-60-79",
-              "xml": "herodotus-1-60-79.xml",
-              "chunks": { "start": 1, "end": 166 }
-            },
-            {
-              "locus": "80-99",
-              "path": "histories-80-99",
-              "xml": "herodotus-1-80-99.xml",
-              "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "chunks": { "start": 1, "end": 185 }
+              "locus": "selections",
+              "path": "1999.01.0021",
+              "xml": "1999.01.0021.tb.xml",
+              "chunks": { "start": 1, "end": 36 }
             }
           ]
         },
         {
-          "path": "philippic",
-          "author": "Demosthenes",
-          "work": "Philippic 1",
-          "editors": [
-            "Robert Gorman",
-            "Vanessa Gorman"
-          ],
+          "path": "aesop",
+          "author": "Babrius",
+          "work": "Fables from Aesop",
+          "editors": "various",
           "sections": [
             {
-              "locus": "1-51",
-              "path": "philippic-1-51",
-              "xml": "demosthenes-4-phil1-bu1.xml",
-              "chunks": { "numbers": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121", "122", "123", "124", "125", "126", "127", "128", "129", "130", "131", "132", "133", "134", "135", "136", "137", "138", "139", "140", "141", "142", "143", "144", "145", "146", "147", "148", "149", "150", "151", "152", "153", "154", "155", "156", "157", "158", "159"] }
+              "locus": "Selections",
+              "path": "aesop",
+              "xml": "aesop.tb.xml",
+              "chunks": { "start": 1, "end": 18 }
+            }
+          ]
+        },
+        {
+          "path": "tlg0011.tlg003",
+          "author": "Sophocles",
+          "work": "Ajax",
+          "editors": "Daniel Lim Libatique",
+          "sections": [
+            {
+              "locus": "1-1376",
+              "path": "tlg0011.tlg003.alpheios-text-grc1",
+              "xml": "tlg0011.tlg003.alpheios-text-grc1.tb.xml",
+              "chunks": { "start": 2383098, "end": 2383882 }
+            }
+          ]
+        },
+        {
+          "path": "tlg0020.tlg001",
+          "author": "Hesiod",
+          "work": "Theogeny",
+          "editors": "various",
+          "sections": [
+            {
+              "locus": "1-1022",
+              "path": "tlg0020.tlg001.alpheios-text-grc1",
+              "xml": "tlg0020.tlg001.alpheios-text-grc1.tb.xml",
+              "chunks": { "start": 2273668, "end": 2274105 }
+            }
+          ]
+        },
+        {
+          "path": "tlg0020.tlg002",
+          "author": "Hesiod",
+          "work": "Works and Days",
+          "editors": "various",
+          "sections": [
+            {
+              "locus": "1-828",
+              "path": "tlg0020.tlg002.alpheios-text-grc1",
+              "xml": "tlg0020.tlg002.alpheios-text-grc1.tb.xml",
+              "chunks": { "start": 1715891, "end": 1716381 }
+            }
+          ]
+        },
+        {
+          "path": "tlg0020.tlg003",
+          "author": "Hesiod",
+          "work": "Shield of Heracles",
+          "editors": "various",
+          "sections": [
+            {
+              "locus": "1-480",
+              "path": "tlg0020.tlg003.alpheios-text-grc1",
+              "xml": "tlg0020.tlg003.alpheios-text-grc1.tb.xml",
+              "chunks": { "start": 2273413, "end": 2273667 }
+            }
+          ]
+        },
+        {
+          "path": "tlg0032.tlg001",
+          "author": "Xenophon",
+          "work": "Hellenica",
+          "editors": "Vanessa Gorman",
+          "sections": [
+            {
+              "locus": "1.1-1.4",
+              "path": "tlg0032.tlg001.perseus-grc2.1.1-1.4",
+              "xml": "tlg0032.tlg001.perseus-grc2.1.1-1.4.tb.xml",
+              "chunks": { "start": 1, "end": 184 }
+            },
+            {
+              "locus": "1.5-1.7",
+              "path": "tlg0032.tlg001.perseus-grc2.1.5-1.7",
+              "xml": "tlg0032.tlg001.perseus-grc2.1.5-1.7.tb.xml",
+              "chunks": { "start": 1, "end": 193 }
+            },
+            {
+              "locus": "2",
+              "path": "tlg0032.tlg001.perseus-grc2.2",
+              "xml": "tlg0032.tlg001.perseus-grc2.2.tb.xml",
+              "chunks": { "start": 1, "end": 412 }
+            },
+            {
+              "locus": "3",
+              "path": "tlg0032.tlg001.perseus-grc2.3",
+              "xml": "tlg0032.tlg001.perseus-grc2.3.tb.xml",
+              "chunks": { "start": 1, "end": 459 }
+            }
+          ]
+        },
+        {
+          "path": "tlg0085.tlg001",
+          "author": "Aeschylus",
+          "work": "Suppliant Women",
+          "editors": "Francesco Mambrini",
+          "sections": [
+            {
+              "locus": "1-1073",
+              "path": "tlg0085.tlg001.alpheios-text-grc1",
+              "xml": "tlg0085.tlg001.alpheios-text-grc1.tb.xml",
+              "chunks": { "start": 2198018, "end": 2198551 }
+            }
+          ]
+        },
+        {
+          "path": "tlg0085.tlg002",
+          "author": "Aeschylus",
+          "work": "Persians",
+          "editors": "Francesco Mambrini",
+          "sections": [
+            {
+              "locus": "1-1076",
+              "path": "tlg0085.tlg002.alpheios-text-grc1",
+              "xml": "tlg0085.tlg002.alpheios-text-grc1.tb.xml",
+              "chunks": { "start": 2197011, "end": 2197494 }
+            }
+          ]
+        },
+        {
+          "path": "tlg0085.tlg003",
+          "author": "Aeschylus",
+          "work": "Prometheus Bound",
+          "editors": "Francesco Mambrini",
+          "sections": [
+            {
+              "locus": "1-1093",
+              "path": "tlg0085.tlg003.alpheios-text-grc1",
+              "xml": "tlg0085.tlg003.alpheios-text-grc1.tb.xml",
+              "chunks": { "start": 2196419, "end": 2197010 }
+            }
+          ]
+        },
+        {
+          "path": "tlg0085.tlg004",
+          "author": "Aeschylus",
+          "work": "Seven Against Thebes",
+          "editors": "Francesco Mambrini",
+          "sections": [
+            {
+              "locus": "1-1084",
+              "path": "tlg0085.tlg005.alpheios-text-grc1",
+              "xml": "tlg0085.tlg005.alpheios-text-grc1.tb.xml",
+              "chunks": { "start": 2197495, "end": 2198017 }
+            }
+          ]
+        },
+        {
+          "path": "tlg0085.tlg005",
+          "author": "Aeschylus",
+          "work": "Agamemnon",
+          "editors": "Francesco Mambrini",
+          "sections": [
+            {
+              "locus": "1-1673",
+              "path": "tlg0085.tlg005.alpheios-text-grc1",
+              "xml": "tlg0085.tlg005.alpheios-text-grc1.tb.xml",
+              "chunks": { "start": 2185285, "end": 2195321 }
+            }
+          ]
+        },
+        {
+          "path": "tlg0085.tlg006",
+          "author": "Aeschylus",
+          "work": "Libation Bearers",
+          "editors": "Francesco Mambrini",
+          "sections": [
+            {
+              "locus": "1-1076",
+              "path": "tlg0085.tlg006.alpheios-text-grc1",
+              "xml": "tlg0085.tlg006.alpheios-text-grc1.tb.xml",
+              "chunks": { "start": 2195845, "end": 2196418 }
+            }
+          ]
+        },
+        {
+          "path": "tlg0012.tlg001",
+          "author": "Homer",
+          "work": "Iliad",
+          "editors": "various",
+          "sections": [
+            {
+              "locus": "Book 1",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.1",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.1.tb.xml",
+              "chunks": { "start": 2274106, "end": 2274454 }
+            },
+            {
+              "locus": "Book 2",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.2",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.2.tb.xml",
+              "chunks": { "start": 2274455, "end": 2274873 }
+            },
+            {
+              "locus": "Book 3",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.3",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.3.tb.xml",
+              "chunks": { "start": 2274874, "end": 2275122 }
+            },
+            {
+              "locus": "Book 4",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.4",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.4.tb.xml",
+              "chunks": { "start": 2275123 , "end": 2275428 }
+            },
+            {
+              "locus": "Book 5",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.5",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.5.tb.xml",
+              "chunks": { "start": 2275429 , "end": 2275919 }
+            },
+            {
+              "locus": "Book 6",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.6",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.6.tb.xml",
+              "chunks": { "start": 2275920 , "end": 2276192 }
+            },
+            {
+              "locus": "Book 7",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.7",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.7.tb.xml",
+              "chunks": { "start": 2276193 , "end": 2276455 }
+            },
+            {
+              "locus": "Book 8",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.8",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.8.tb.xml",
+              "chunks": { "start":2276456 , "end": 2276746 }
+            },
+            {
+              "locus": "Book 9",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.9",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.9.tb.xml",
+              "chunks": { "start": 2276747 , "end": 2277119 }
+            },
+            {
+              "locus": "Book 10",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.10",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.10.tb.xml",
+              "chunks": { "start": 2277120, "end": 2277453 }
+            },
+            {
+              "locus": "Book 11",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.11",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.11.tb.xml",
+              "chunks": { "start": 2277454 , "end": 2277902 }
+            },
+            {
+              "locus": "Book 12",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.12",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.12.tb.xml",
+              "chunks": { "start": 2277903 , "end": 2278121 }
+            },
+            {
+              "locus": "Book 13",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.13",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.13.tb.xml",
+              "chunks": { "start": 2278122 , "end": 2278564 }
+            },
+            {
+              "locus": "Book 14",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.14",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.14.tb.xml",
+              "chunks": { "start": 2278565 , "end": 2278843 }
+            },
+            {
+              "locus": "Book 15",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.15",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.15.tb.xml",
+              "chunks": { "start": 2278844 , "end": 2279223 }
+            },
+            {
+              "locus": "Book 16",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.16",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.16.tb.xml",
+              "chunks": { "start": 2279224 , "end": 2279681 }
+            },
+            {
+              "locus": "Book 17",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.17",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.17.tb.xml",
+              "chunks": { "start": 2279682, "end": 2280079 }
+            },
+            {
+              "locus": "Book 18",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.18",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.18.tb.xml",
+              "chunks": { "start": 2280080, "end": 2280430 }
+            },
+            {
+              "locus": "Book 19",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.19",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.19.tb.xml",
+              "chunks": { "start": 2280431, "end": 2280661 }
+            },
+            {
+              "locus": "Book 20",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.20",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.20.tb.xml",
+              "chunks": { "start": 2280662, "end": 2280927 }
+            },
+            {
+              "locus": "Book 21",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.21",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.21.tb.xml",
+              "chunks": { "start": 2280928, "end": 2281276 }
+            },
+            {
+              "locus": "Book 22",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.22",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.22.tb.xml",
+              "chunks": { "start": 2281277, "end": 2281557 }
+            },
+            {
+              "locus": "Book 23",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.23",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.23.tb.xml",
+              "chunks": { "start": 2281558, "end": 2282089 }
+            },
+            {
+              "locus": "Book 24",
+              "path": "tlg0012.tlg001.alpheios-text-grc1.24",
+              "xml": "tlg0012.tlg001.alpheios-text-grc1.24.tb.xml",
+              "chunks": { "start": 2282090, "end": 2282520 }
+            }
+          ]
+        },
+        {
+          "path": "tlg0012.tlg002",
+          "author": "Homer",
+          "work": "Odyssey",
+          "editors": "various",
+          "sections": [
+            {
+              "locus": "Book 1 (AE1)",
+              "path": "1999.01.0135",
+              "xml": "1999.01.0135.tb.xml",
+              "chunks": { "start": 227, "end": 459 }
+            },
+            {
+              "locus": "Book 1",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.1",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.1.tb.xml",
+              "chunks": { "start": 2185541, "end": 2185773 }
+            },
+            {
+              "locus": "Book 2",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.2",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.2.tb.xml",
+              "chunks": { "start": 2185774, "end": 2186018 }
+            },
+            {
+              "locus": "Book 3",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.3",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.3.tb.xml",
+              "chunks": { "start": 2186019, "end": 2186287 }
+            },
+            {
+              "locus": "Book 4",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.4",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.4.tb.xml",
+              "chunks": { "start": 2186288 , "end": 2186755 }
+            },
+            {
+              "locus": "Book 5",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.5",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.5.tb.xml",
+              "chunks": { "start": 2186756 , "end": 2187022 }
+            },
+            {
+              "locus": "Book 6",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.6",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.6.tb.xml",
+              "chunks": { "start": 2187023 , "end": 2187218 }
+            },
+            {
+              "locus": "Book 7",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.7",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.7.tb.xml",
+              "chunks": { "start": 2187219 , "end": 2187399 }
+            },
+            {
+              "locus": "Book 8",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.8",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.8.tb.xml",
+              "chunks": { "start": 2187400 , "end": 2187720 }
+            },
+            {
+              "locus": "Book 9",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.9",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.9.tb.xml",
+              "chunks": { "start": 2187721, "end": 2188024 }
+            },
+            {
+              "locus": "Book 10",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.10",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.10.tb.xml",
+              "chunks": { "start": 2188025, "end": 2188364 }
+            },
+            {
+              "locus": "Book 11",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.11",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.11.tb.xml",
+              "chunks": { "start": 2188365, "end": 2188695 }
+            },
+            {
+              "locus": "Book 12",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.12",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.12.tb.xml",
+              "chunks": { "start": 2188696, "end": 2188936 }
+            },
+            {
+              "locus": "Book 13",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.13",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.13.tb.xml",
+              "chunks": { "start": 2188937, "end": 2189171 }
+            },
+            {
+              "locus": "Book 14",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.14",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.14.tb.xml",
+              "chunks": { "start": 2189172, "end": 2189470 }
+            },
+            {
+              "locus": "Book 15",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.15",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.15.tb.xml",
+              "chunks": { "start": 2189471, "end": 2189794 }
+            },
+            {
+              "locus": "Book 16",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.16",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.16.tb.xml",
+              "chunks": { "start": 2189795, "end": 2190075 }
+            },
+            {
+              "locus": "Book 17",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.17",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.17.tb.xml",
+              "chunks": { "start": 2190076, "end": 2190447 }
+            },
+            {
+              "locus": "Book 18",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.18",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.18.tb.xml",
+              "chunks": { "start": 2190448, "end": 2190702 }
+            },
+            {
+              "locus": "Book 19",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.19",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.19.tb.xml",
+              "chunks": { "start": 2190703, "end": 2191049 }
+            },
+            {
+              "locus": "Book 20",
+              "path": "tlg0012.tlg022.alpheios-text-grc1.20",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.20.tb.xml",
+              "chunks": { "start": 2191050, "end": 2191287 }
+            },
+            {
+              "locus": "Book 21",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.21",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.21.tb.xml",
+              "chunks": { "start": 2191288, "end": 2191530 }
+            },
+            {
+              "locus": "Book 22",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.22",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.22.tb.xml",
+              "chunks": { "start": 2191531, "end": 2191807 }
+            },
+            {
+              "locus": "Book 23",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.23",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.23.tb.xml",
+              "chunks": { "start": 2191808, "end": 2192000 }
+            },
+            {
+              "locus": "Book 24",
+              "path": "tlg0012.tlg002.alpheios-text-grc1.24",
+              "xml": "tlg0012.tlg002.alpheios-text-grc1.24.tb.xml",
+              "chunks": { "start": 2192001, "end": 2192300 }
             }
           ]
         }

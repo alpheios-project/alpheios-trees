@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+- v13.9.0
+before_install:
+- curl -o- -L https://yarnpkg.com/install.sh | bash
+- export PATH="$HOME/.yarn/bin:$PATH"
+cache:
+  directories:
+  - node_modules
+script:
+- yarn install
+- yarn test --coverage
+- PUBLIC_URL='/' yarn build
+deploy:
+  provider: s3
+  cleanup: true
+  skip_cleanup: true
+  access_key_id: AKIAZIUCQ6FCJN5DNPMZ
+  secret_access_key:
+    secure: Eg8x9/7rgn4tTKbTMdUCPtAtjJ400S3tZ1S4gLeIPatxOo1P4PpF5sL1Y08SVJsR5GftSP9oe4lIpi3wyHN9TjZrBffmiL3b6IC00KwEnGr7AxItbpq2TyzuqYSP2PmZb1VAGyHswp7JpYDRq2xwRYAZ0N41bk4W1cL485jV+QaG2B3r25PauGrvi8yHNionGEKvFTtd4QqltyWmT05EEwfExD7Hn8LSNkhuTrj74VT13YmZG/G5loPrPA+4oMblG/eCCzyz2qBvW8tyr0/ct4tZI5UC2Ej2L8CzKojVctimQ64h1zDxlnLLN7NZGFFZQxA2hsR1wNboMd2BWkhDzgkiD0uM6r5+bApnK3X2YVP82foFQrTip5UP5/thd/qN+Txd1fgx/IQlmq3FlFynP41q31XXuUVV84L2wRQmV3X0fABTVhoX/Eg1PN+N/ctIwjbTzxTfPd5gi6b5unX/1g1yCkpmeqxfmi1phgX6tjYQ1xb4C5MaOPsh6vioMrm9Tj6FYwJYjYEPexF9BwTGuKB+vUvI8ARt2k92KGb6rgXz5CkGjX4Z4rFCsjhlOObuisjpQ2sfxjlYgWXuKQn303hE4RXQcBbq7dN6qMItd5DrpVCT3+tCr0+0/+lFKDC/89jYny5aTojUBiLT7jQ8ll+ojcaq/dL48tGQytFAyaI=
+  bucket: alpheios-trees
+  region: us-east-2
+  local_dir: build
+  acl: public_read
+  cache_control: max-age=604800
+  on:
+    repo: alpheios-project/alpheios-trees
+    branch: master
