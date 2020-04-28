@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/alpheios-trees/precache-manifest.2c132668c0864da123bb9ec9c0d12601.js"
+  "/alpheios-trees/precache-manifest.becc0e3d4f98122a1634d28e75948f6c.js"
 );
 
 self.addEventListener('message', (event) => {
