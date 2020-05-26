@@ -76,7 +76,6 @@ const defaultConfig = {
       template: 'js/templates/dep_tree.html',
     },
     morph: {
-      noRetrieval: "online",
       retrievers: {
         BspMorphRetriever: {
           resource: 'morphologyServiceLat',
