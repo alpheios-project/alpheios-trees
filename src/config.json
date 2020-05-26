@@ -260,7 +260,7 @@
           "sections": [
             {
               "locus": "1-1076",
-              "path": "tlg0085.tlg007.alpheios-text-grc1",
+              "path": "tlg0085.tlg006.alpheios-text-grc1",
               "xml": "tlg0085.tlg006.alpheios-text-grc1.tb.xml",
               "chunks": { "start": 2195845, "end": 2196418 }
             }
