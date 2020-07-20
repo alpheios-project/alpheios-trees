@@ -4346,12 +4346,29 @@ angular.module('arethusa.core').factory('Tree', [
         moveGraph(xPos, treeMargin);
       };
 
+      scope.refreshWidth = function() {
+        setViewModeFn(scope.refreshWidth);
+        var gWidth  = graphSize().width;
+        var targetW = width - treeMargin * 2
+        // if the graph is bigger than the window, scale it down so it fits
+        if (gWidth > targetW) {
+          var scale = targetW / gWidth;
+          moveGraph(treeMargin, treeMargin, scale);
+        // otherwise just center it
+        } else {
+          var xPos = (width - gWidth) / 2;
+          moveGraph(xPos, treeMargin);
+        }
+      }
+
       scope.perfectWidth = function() {
-        setViewModeFn(scope.perfectWidth);
         var gWidth  = graphSize().width;
         var targetW = width - treeMargin * 2;
-        var scale = targetW / gWidth;
-        moveGraph(treeMargin, treeMargin, scale);
+        if (targetW !== 0 && gWidth !== 0) {
+          setViewModeFn(scope.perfectWidth);
+          var scale = targetW / gWidth;
+          moveGraph(treeMargin, treeMargin, scale);
+        }
       };
 
       scope.focusRoot = function() {
@@ -4570,12 +4587,12 @@ angular.module('arethusa.core').factory('Tree', [
         applyViewMode();
       });
 
-     
+
       // if a tree was rendered before it is visible
       // refreshing will rerender it and fix display bugs
       navigator.onRefresh(function() {
         render();
-        scope.perfectWidth();
+        scope.refreshWidth();
         $timeout(applyViewMode, transitionDuration);
       });
 
@@ -5234,14 +5251,15 @@ angular.module('arethusa.core').service('configurator', [
   '$timeout',
   '$location',
   '$q',
+  'BASE_PATH',
   function ($injector, $http, $rootScope, Resource, Auth,
-            $timeout, $location, $q) {
+            $timeout, $location, $q, BASE_PATH) {
     var self = this;
     var includeParam = 'fileUrl';
     var uPCached;
     var mainSections = ['main', 'navbar', 'notifier'];
     var subSections = ['plugins'];
-    
+
     // CONF UTILITY FUNCTIONS
     // ----------------------
 
@@ -5474,7 +5492,7 @@ angular.module('arethusa.core').service('configurator', [
 
     // SET AND RETRIEVE CONFIGURATIONS
     // -------------------------------
-    
+
     /**
      * @ngdoc property
      * @name configuration
@@ -5525,7 +5543,7 @@ angular.module('arethusa.core').service('configurator', [
         $rootScope.$broadcast('confLoaded');
       });
     };
-    
+
     /**
      * @ngdoc function
      * @name arethusa.core.configurator#loadAdditionalConf
@@ -5562,13 +5580,23 @@ angular.module('arethusa.core').service('configurator', [
         if (url.match('^http:\/\/')) {
           return url;
         } else {
-          return auxConfPath() + '/' + url + '.json';
+          var basePath = auxConfPath();
+          var confPath = '/' + url + '.json';
+          var fullPath;
+          if (basePath.match('^\.\/')) {
+            // it's a relative path prefix with the BASE_PATH
+            fullPath = BASE_PATH + basePath.substr(1) + confPath;
+          } else {
+            fullPath = basePath + confPath;
+          }
+          return fullPath;
         }
 
         function auxConfPath() {
           return self.configuration.main.auxConfPath;
         }
       }
+
       function notifier() {
         return $injector.get('notifier');
       }
@@ -7303,6 +7331,11 @@ angular.module('arethusa.core').service('languageSettings', [
         name: 'Hebrew',
         lang: 'he',
         leftToRight: false
+      },
+      'lat': {
+        name: 'Latin',
+        lang: 'la',
+        leftToRight: true
       }
     };
 

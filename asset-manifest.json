@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/alpheios-trees/static/css/main.bd98509e.chunk.css",
-    "main.js": "/alpheios-trees/static/js/main.40fa4519.chunk.js",
-    "main.js.map": "/alpheios-trees/static/js/main.40fa4519.chunk.js.map",
-    "runtime-main.js": "/alpheios-trees/static/js/runtime-main.d44c4e2d.js",
-    "runtime-main.js.map": "/alpheios-trees/static/js/runtime-main.d44c4e2d.js.map",
-    "static/css/2.0121959d.chunk.css": "/alpheios-trees/static/css/2.0121959d.chunk.css",
-    "static/js/2.89579b23.chunk.js": "/alpheios-trees/static/js/2.89579b23.chunk.js",
-    "static/js/2.89579b23.chunk.js.map": "/alpheios-trees/static/js/2.89579b23.chunk.js.map",
-    "index.html": "/alpheios-trees/index.html",
-    "precache-manifest.becc0e3d4f98122a1634d28e75948f6c.js": "/alpheios-trees/precache-manifest.becc0e3d4f98122a1634d28e75948f6c.js",
-    "service-worker.js": "/alpheios-trees/service-worker.js",
-    "static/css/2.0121959d.chunk.css.map": "/alpheios-trees/static/css/2.0121959d.chunk.css.map",
-    "static/css/main.bd98509e.chunk.css.map": "/alpheios-trees/static/css/main.bd98509e.chunk.css.map",
-    "static/js/2.89579b23.chunk.js.LICENSE.txt": "/alpheios-trees/static/js/2.89579b23.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.bd98509e.chunk.css",
+    "main.js": "/static/js/main.9ca4fc3a.chunk.js",
+    "main.js.map": "/static/js/main.9ca4fc3a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1bd5ad2d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1bd5ad2d.js.map",
+    "static/css/2.4d5b04cb.chunk.css": "/static/css/2.4d5b04cb.chunk.css",
+    "static/js/2.2ad90c70.chunk.js": "/static/js/2.2ad90c70.chunk.js",
+    "static/js/2.2ad90c70.chunk.js.map": "/static/js/2.2ad90c70.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4ad609c1f684f69db914d0febf505770.js": "/precache-manifest.4ad609c1f684f69db914d0febf505770.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.4d5b04cb.chunk.css.map": "/static/css/2.4d5b04cb.chunk.css.map",
+    "static/css/main.bd98509e.chunk.css.map": "/static/css/main.bd98509e.chunk.css.map",
+    "static/js/2.2ad90c70.chunk.js.LICENSE.txt": "/static/js/2.2ad90c70.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d44c4e2d.js",
-    "static/css/2.0121959d.chunk.css",
-    "static/js/2.89579b23.chunk.js",
+    "static/js/runtime-main.1bd5ad2d.js",
+    "static/css/2.4d5b04cb.chunk.css",
+    "static/js/2.2ad90c70.chunk.js",
     "static/css/main.bd98509e.chunk.css",
-    "static/js/main.40fa4519.chunk.js"
+    "static/js/main.9ca4fc3a.chunk.js"
   ]
 }
