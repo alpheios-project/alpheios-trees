@@ -42,20 +42,6 @@
           ]
         },
         {
-          "path": "lesson_1",
-          "author": "Bob Gorman",
-          "work": "Test Lesson 1",
-          "editors": "Bob Gorman",
-          "sections": [
-            {
-              "locus": "1.1-1.11",
-              "path": "lesson_1",
-              "xml": "rgorman_lesson_1.xml",
-              "chunks": { "start": 1, "end": 11 }
-            }
-          ]
-        },
-        {
           "path": "phi0620.phi001",
           "author": "Sextus Propertius",
           "work": "Elegies",
