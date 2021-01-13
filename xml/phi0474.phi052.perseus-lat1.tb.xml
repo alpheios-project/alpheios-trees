@@ -3542,7 +3542,7 @@
       <word id="9" form="in" lemma="in" postag="r--------" relation="AuxP" head="7"/>
       <word id="10" form="periculis" lemma="periculum" postag="n-p---nb-" relation="SBJ" head="13"/>
       <word id="11" form="aut" lemma="aut" postag="d-------_" relation="AuxY" head="13"/>
-      <word id="12" form="adeundis" lemma="adeo1" postag="v_p_gpnb-" relation="OBJ_CO" head="13"/>
+      <word id="12" form="adeundis" lemma="adeo1" postag="v_p-gpnb-" relation="OBJ_CO" head="13"/>
       <word id="13" form="aut" lemma="aut" postag="c--------" relation="COORD" head="9"/>
       <word id="14" form="communicandis" lemma="communico" postag="v-p-g-nb-" relation="OBJ_CO"
          head="13"/>
@@ -4630,7 +4630,7 @@
       <word id="40" form="amore" lemma="amor" postag="n-s---mb-" relation="OBJ" head="38"/>
       <word id="41" form="inest" lemma="insum" postag="v3spia---" relation="ADV_CO" head="34"/>
       <word id="42" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
-      <word id="43" form="expetendam" lemma="expeto" postag="v_s_gpfa-" relation="OBJ" head="44"/>
+      <word id="43" form="expetendam" lemma="expeto" postag="v_s-gpfa-" relation="OBJ" head="44"/>
       <word id="44" form="putamus" lemma="puto" postag="v1ppia---" relation="PRED" head="0"/>
       <word id="45" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
@@ -5381,7 +5381,7 @@
       <word id="17" insertion_id="0016e" artificial="elliptic" relation="PRED" lemma="puto"
          postag="v2sisa---" form="putares" head="0"/>
       <word id="18" insertion_id="0016f" artificial="elliptic" relation="OBJ" lemma="facio"
-         postag="v_s_gpnn-" form="faciendum" head="17"/>
+         postag="v_s-gpnn-" form="faciendum" head="17"/>
    </sentence>
    <sentence id="204" document_id="urn:cts:latinLit:phi0474.phi052.perseus-lat1" subdoc="11.37"
       span="">
@@ -9495,7 +9495,7 @@
    <sentence id="353" document_id="urn:cts:latinLit:phi0474.phi052.perseus-lat1" subdoc="19.70"
       span="">
       <word id="1" form="quod" lemma="qui2" postag="p-s---nn-" relation="SBJ" head="4"/>
-      <word id="2" form="faciendum" lemma="facio" postag="v_s_gpnn-" relation="PRED_CO" head="4"/>
+      <word id="2" form="faciendum" lemma="facio" postag="v_s-gpnn-" relation="PRED_CO" head="4"/>
       <word id="3" form="imitandum" lemma="imito" postag="v-s-g-nn-" relation="PRED_CO" head="4"/>
       <word id="4" form="-que" lemma="-que" postag="c--------" relation="COORD" head="0"/>
       <word id="5" form="est" lemma="sum1" postag="v3spia---" relation="AuxV" head="4"/>
@@ -9611,7 +9611,7 @@
       <word id="8" form="patribus" lemma="pater" postag="n-p---mb-" relation="ADV" head="6"/>
       <word id="9" form="certis" lemma="certus" postag="a-p---mb-" relation="ATR_CO" head="10"/>
       <word id="10" form="-que" lemma="-que" postag="c--------" relation="COORD" head="8"/>
-      <word id="11" form="faciendum" lemma="facio" postag="v_s_gpnn-" relation="PRED" head="0"/>
+      <word id="11" form="faciendum" lemma="facio" postag="v_s-gpnn-" relation="PRED" head="0"/>
       <word id="12" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
    <sentence id="356" document_id="urn:cts:latinLit:phi0474.phi052.perseus-lat1" subdoc="19.70"
@@ -11137,7 +11137,7 @@
       <word id="24" form="-que" lemma="-que" postag="c--------" relation="COORD" head="28"/>
       <word id="25" form="ullam" lemma="ullus" postag="a-s---fa-" relation="ATR" head="26"/>
       <word id="26" form="rem" lemma="res" postag="n-s---fa-" relation="OBJ_CO" head="24"/>
-      <word id="27" form="expetendam" lemma="expeto" postag="v_s_gpfa-" relation="ATR" head="26"/>
+      <word id="27" form="expetendam" lemma="expeto" postag="v_s-gpfa-" relation="ATR" head="26"/>
       <word id="28" form="consequi" lemma="consequor" postag="v--pnd---" relation="OBJ" head="29"/>
       <word id="29" form="possumus" lemma="possum" postag="v1ppia---" relation="ATR" head="13"/>
       <word id="30" form=";" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
