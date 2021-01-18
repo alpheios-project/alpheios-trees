@@ -475,7 +475,7 @@
 		<primary>tovahk</primary>
 		<secondary>nicanor</secondary>
 		<word id="1" cid="32848630" form="&#34;" lemma="θυοτε1" postag="u--------" head="3" relation="AuxG"/>
-		<word id="2" cid="32848631" form="εἰ" lemma="εἰ1" postag="e--------" head="12" relation="AuxY"/>
+		<word id="2" cid="32848631" form="εἰ" lemma="εἰ1" postag="i--------" head="12" relation="AuxY"/>
 		<word id="3" cid="32848632" form="δ᾽" lemma="δέ1" postag="d--------" head="0" relation="COORD"/>
 		<word id="4" cid="32848633" form="ἄγε" lemma="ἄγε1" postag="d--------" head="12" relation="AuxY"/>
 		<word id="5" cid="32848634" form="δή" lemma="δή1" postag="d--------" head="12" relation="AuxY"/>
@@ -2208,7 +2208,7 @@
 		<primary>tovahk</primary>
 		<secondary>nicanor</secondary>
 		<word id="1" cid="32849904" form="&#34;" lemma="θυοτε1" postag="u--------" head="10" relation="AuxG"/>
-		<word id="2" cid="32849905" form="ὦ" lemma="ὦ1" postag="e--------" head="3" relation="AuxZ"/>
+		<word id="2" cid="32849905" form="ὦ" lemma="ὦ1" postag="i--------" head="3" relation="AuxZ"/>
 		<word id="3" cid="32849906" form="γύναι" lemma="γυνή1" postag="n-s---fv-" head="10" relation="ExD"/>
 		<word id="4" cid="32849907" form="," lemma="ξομμα1" postag="u--------" head="3" relation="AuxX"/>
 		<word id="5" cid="32849908" form="ἦ" lemma="ἦ1" postag="d--------" head="10" relation="AuxY"/>
@@ -2947,7 +2947,7 @@
 		<word id="7" cid="32850480" form="πολύμητις" lemma="πολύμητις" postag="a-s---mn-" head="8" relation="ATR"/>
 		<word id="8" cid="32850481" form="Ὀδυσσεύς" lemma="Ὀδυσσεύς1" postag="n-s---mn-" head="6" relation="SBJ"/>
 		<word id="9" cid="32850482" form="&#34;" lemma="θυοτε1" postag="u--------" head="22" relation="AuxG"/>
-		<word id="10" cid="32850483" form="ὦ" lemma="ὦ1" postag="e--------" head="11" relation="AuxZ"/>
+		<word id="10" cid="32850483" form="ὦ" lemma="ὦ1" postag="i--------" head="11" relation="AuxZ"/>
 		<word id="11" cid="32850484" form="γύναι" lemma="γυνή1" postag="n-s---fv-" head="22" relation="ExD"/>
 		<word id="12" cid="32850485" form="," lemma="ξομμα1" postag="u--------" head="11" relation="AuxX"/>
 		<word id="13" cid="32850486" form="οὐ" lemma="οὐ1" postag="d--------" head="20" relation="AuxZ"/>
@@ -4023,7 +4023,7 @@
 		<primary>jackmitchell</primary>
 		<secondary>nicanor</secondary>
 		<word id="1" cid="32851329" form="&#34;" lemma="θυοτε1" postag="u--------" head="8" relation="AuxG"/>
-		<word id="2" cid="32851330" form="ὦ" lemma="ὦ1" postag="e--------" head="3" relation="AuxZ"/>
+		<word id="2" cid="32851330" form="ὦ" lemma="ὦ1" postag="i--------" head="3" relation="AuxZ"/>
 		<word id="3" cid="32851331" form="γύναι" lemma="γυνή1" postag="n-s---fv-" head="8" relation="ExD"/>
 		<word id="4" cid="32851332" form="," lemma="ξομμα1" postag="u--------" head="3" relation="AuxX"/>
 		<word id="5" cid="32851333" form="ἤδη" lemma="ἤδη1" postag="d--------" head="8" relation="ADV"/>

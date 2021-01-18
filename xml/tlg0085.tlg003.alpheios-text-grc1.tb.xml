@@ -395,7 +395,7 @@
   </sentence>
   <sentence id="2196446" document_id="Perseus:text:1999.01.0009" subdoc="card=36" span="ὦ0:.4">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32930667" form="ὦ" lemma="ὦ1" postag="e--------" head="4" relation="AuxZ"/>
+    <word id="1" cid="32930667" form="ὦ" lemma="ὦ1" postag="i--------" head="4" relation="AuxZ"/>
     <word id="2" cid="32930668" form="πολλὰ" lemma="πολύς1" postag="a-p---na-" head="3" relation="ADV"/>
     <word id="3" cid="32930669" form="μισηθεῖσα" lemma="μισέω1" postag="v-sappfn-" head="4" relation="ATR"/>
     <word id="4" cid="32930670" form="χειρωναξία" lemma="χειρωναξία1" postag="n-s---fn-" head="0" relation="ExD_ExD0_PRED"/>
@@ -585,7 +585,7 @@
   </sentence>
   <sentence id="2196463" document_id="Perseus:text:1999.01.0009" subdoc="card=61" span="αἰαῖ0:.3">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32930806" form="αἰαῖ" lemma="αἰαῖ1" postag="e--------" head="0" relation="ExD"/>
+    <word id="1" cid="32930806" form="αἰαῖ" lemma="αἰαῖ1" postag="i--------" head="0" relation="ExD"/>
     <word id="2" cid="32930807" form="," lemma="ξομμα1" postag="u--------" head="3" relation="AuxX"/>
     <word id="3" cid="32930808" form="Προμηθεῦ" lemma="Προμηθεύς1" postag="n-s---mv-" head="6" relation="ExD"/>
     <word id="4" cid="32930809" form="," lemma="ξομμα1" postag="u--------" head="3" relation="AuxX"/>
@@ -793,7 +793,7 @@
   </sentence>
   <sentence id="2196482" document_id="Perseus:text:1999.01.0009" subdoc="card=88" span="ὦ0:.0">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32930957" form="ὦ" lemma="ὦ1" postag="e--------" head="3" relation="AuxZ"/>
+    <word id="1" cid="32930957" form="ὦ" lemma="ὦ1" postag="i--------" head="3" relation="AuxZ"/>
     <word id="2" cid="32930958" form="δῖος" lemma="δῖος1" postag="a-s---mn-" head="3" relation="ATR"/>
     <word id="3" cid="32930959" form="αἰθὴρ" lemma="αἰθήρ1" postag="n-s---mn-" head="19" relation="ExD_CO"/>
     <word id="4" cid="32930960" form="καὶ" lemma="καί1" postag="c--------" head="19" relation="AuxY"/>
@@ -861,8 +861,8 @@
   </sentence>
   <sentence id="2196487" document_id="Perseus:text:1999.01.0009" subdoc="card=95" span="φεῦ0:.2">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32931013" form="φεῦ" lemma="φεῦ1" postag="e--------" head="2" relation="AuxY"/>
-    <word id="2" cid="32931014" form="φεῦ" lemma="φεῦ1" postag="e--------" head="10" relation="ExD"/>
+    <word id="1" cid="32931013" form="φεῦ" lemma="φεῦ1" postag="i--------" head="2" relation="AuxY"/>
+    <word id="2" cid="32931014" form="φεῦ" lemma="φεῦ1" postag="i--------" head="10" relation="ExD"/>
     <word id="3" cid="32931015" form="," lemma="ξομμα1" postag="u--------" head="2" relation="AuxX"/>
     <word id="4" cid="32931016" form="τὸ" lemma="ὁ1" postag="l-s---na-" head="5" relation="ATR"/>
     <word id="5" cid="32931017" form="παρὸν" lemma="πάρειμι1" postag="v-sppana-" head="7" relation="ATR_CO"/>
@@ -989,10 +989,10 @@
   </sentence>
   <sentence id="2196495" document_id="Perseus:text:1999.01.0009" subdoc="card=114" span="ἆ0:.0">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32931114" form="ἆ" lemma="ἆ1" postag="e--------" head="2" relation="AuxY"/>
-    <word id="2" cid="32931115" form="ἆ" lemma="ἆ1" postag="e--------" head="0" relation="ExD_ExD0_PRED"/>
-    <word id="3" cid="32931116" form="ἔα" lemma="ἔα1" postag="e--------" head="4" relation="AuxY"/>
-    <word id="4" cid="32931117" form="ἔα" lemma="ἔα1" postag="e--------" head="0" relation="ExD_ExD0_PRED"/>
+    <word id="1" cid="32931114" form="ἆ" lemma="ἆ1" postag="i--------" head="2" relation="AuxY"/>
+    <word id="2" cid="32931115" form="ἆ" lemma="ἆ1" postag="i--------" head="0" relation="ExD_ExD0_PRED"/>
+    <word id="3" cid="32931116" form="ἔα" lemma="ἔα1" postag="i--------" head="4" relation="AuxY"/>
+    <word id="4" cid="32931117" form="ἔα" lemma="ἔα1" postag="i--------" head="0" relation="ExD_ExD0_PRED"/>
     <word id="5" cid="32931118" form="." lemma="περιοδ1" postag="u--------" head="0" relation="AuxK"/>
   </sentence>
   <sentence id="2196496" document_id="Perseus:text:1999.01.0009" subdoc="card=114" span="τίς0:;0">
@@ -1063,8 +1063,8 @@
   </sentence>
   <sentence id="2196500" document_id="Perseus:text:1999.01.0009" subdoc="card=121" span="φεῦ0:;0">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32931176" form="φεῦ" lemma="φεῦ1" postag="e--------" head="2" relation="AuxY"/>
-    <word id="2" cid="32931177" form="φεῦ" lemma="φεῦ1" postag="e--------" head="8" relation="ExD"/>
+    <word id="1" cid="32931176" form="φεῦ" lemma="φεῦ1" postag="i--------" head="2" relation="AuxY"/>
+    <word id="2" cid="32931177" form="φεῦ" lemma="φεῦ1" postag="i--------" head="8" relation="ExD"/>
     <word id="3" cid="32931178" form="," lemma="ξομμα1" postag="u--------" head="2" relation="AuxX"/>
     <word id="4" cid="32931179" form="τί" lemma="τίς" postag="a-s---na-" head="7" relation="ATR"/>
     <word id="5" cid="32931180" form="ποτ᾽" lemma="ποτέ1" postag="d--------" head="4" relation="AuxZ"/>
@@ -1158,8 +1158,8 @@
   </sentence>
   <sentence id="2196508" document_id="Perseus:text:1999.01.0009" subdoc="card=136" span="αἰαῖ0:.0">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32931247" form="αἰαῖ" lemma="αἰαῖ1" postag="e--------" head="2" relation="AuxY"/>
-    <word id="2" cid="32931248" form="αἰαῖ" lemma="αἰαῖ1" postag="e--------" head="23" relation="ExD"/>
+    <word id="1" cid="32931247" form="αἰαῖ" lemma="αἰαῖ1" postag="i--------" head="2" relation="AuxY"/>
+    <word id="2" cid="32931248" form="αἰαῖ" lemma="αἰαῖ1" postag="i--------" head="23" relation="ExD"/>
     <word id="3" cid="32931249" form="," lemma="ξομμα1" postag="u--------" head="2" relation="AuxX"/>
     <word id="4" cid="32931250" form="τῆς" lemma="ὁ1" postag="l-s---fg-" head="6" relation="ATR"/>
     <word id="5" cid="32931251" form="πολυτέκνου" lemma="πολύτεκνος1" postag="a-s---fg-" head="6" relation="ATR"/>
@@ -2373,7 +2373,7 @@
   </sentence>
   <sentence id="2196582" document_id="Perseus:text:1999.01.0009" subdoc="card=300" span="ἔα0::0">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32932241" form="ἔα" lemma="ἔα1" postag="e--------" head="0" relation="ExD_ExD0_PRED"/>
+    <word id="1" cid="32932241" form="ἔα" lemma="ἔα1" postag="i--------" head="0" relation="ExD_ExD0_PRED"/>
     <word id="2" cid="32932242" form=":" lemma="πυνξ1" postag="u--------" head="0" relation="AuxK"/>
   </sentence>
   <sentence id="2196583" document_id="Perseus:text:1999.01.0009" subdoc="card=300" span="τί0:;0">
@@ -2525,7 +2525,7 @@
     <annotator>FrancescoM</annotator>
     <word id="1" cid="32932361" form="ἀλλ᾽" lemma="ἀλλά1" postag="d--------" head="12" relation="AuxY"/>
     <word id="2" cid="32932362" form="," lemma="ξομμα1" postag="u--------" head="4" relation="AuxX"/>
-    <word id="3" cid="32932363" form="ὦ" lemma="ὦ1" postag="e--------" head="4" relation="AuxZ"/>
+    <word id="3" cid="32932363" form="ὦ" lemma="ὦ1" postag="i--------" head="4" relation="AuxZ"/>
     <word id="4" cid="32932364" form="ταλαίπωρ᾽" lemma="ταλαίπωρος1" postag="a-s---mv-" head="12" relation="ExD"/>
     <word id="5" cid="32932365" form="," lemma="ξομμα1" postag="u--------" head="4" relation="AuxX"/>
     <word id="6" cid="32932366" form="ἃς" lemma="ὅς1" postag="p-p---fa-" head="7" relation="OBJ"/>
@@ -4223,7 +4223,7 @@
     <word id="4" cid="32933742" form="ἄχαρις" lemma="ἄχαρις1" postag="n-s---fn-" head="1" relation="PNOM_ExD0_OBJ"/>
     <word id="5" cid="32933743" form="χάρις" lemma="χάρις1" postag="n-s---fn-" head="1" relation="SBJ_ExD0_OBJ"/>
     <word id="6" cid="32933744" form="," lemma="ξομμα1" postag="u--------" head="8" relation="AuxX"/>
-    <word id="7" cid="32933745" form="ὦ" lemma="ὦ1" postag="e--------" head="8" relation="AuxZ"/>
+    <word id="7" cid="32933745" form="ὦ" lemma="ὦ1" postag="i--------" head="8" relation="AuxZ"/>
     <word id="8" cid="32933746" form="φίλος" lemma="φίλος1" postag="a-s---mn-" head="1" relation="ExD"/>
     <word id="9" cid="32933747" form=":" lemma="πυνξ1" postag="u--------" head="0" relation="AuxK"/>
   </sentence>
@@ -4363,11 +4363,11 @@
   </sentence>
   <sentence id="2196708" document_id="Perseus:text:1999.01.0009" subdoc="card=566" span="ἆ0::0">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32933848" form="ἆ" lemma="ἆ1" postag="e--------" head="2" relation="AuxY"/>
-    <word id="2" cid="32933849" form="ἆ" lemma="ἆ1" postag="e--------" head="3" relation="ExD"/>
+    <word id="1" cid="32933848" form="ἆ" lemma="ἆ1" postag="i--------" head="2" relation="AuxY"/>
+    <word id="2" cid="32933849" form="ἆ" lemma="ἆ1" postag="i--------" head="3" relation="ExD"/>
     <word id="3" cid="32933850" form="," lemma="ξομμα1" postag="u--------" head="7" relation="COORD"/>
-    <word id="4" cid="32933851" form="ἒ" lemma="ἒ1" postag="e--------" head="5" relation="AuxY"/>
-    <word id="5" cid="32933852" form="ἔ" lemma="ἒ1" postag="e--------" head="3" relation="ExD"/>
+    <word id="4" cid="32933851" form="ἒ" lemma="ἒ1" postag="i--------" head="5" relation="AuxY"/>
+    <word id="5" cid="32933852" form="ἔ" lemma="ἒ1" postag="i--------" head="3" relation="ExD"/>
     <word id="6" cid="32933853" form="," lemma="ξομμα1" postag="u--------" head="3" relation="AuxX"/>
     <word id="7" cid="32933854" form="χρίει" lemma="χρίω1" postag="v3spia---" head="18" relation="PRED_CO"/>
     <word id="8" cid="32933855" form="τις" lemma="τις1" postag="p-s---mn-" head="13" relation="ATR"/>
@@ -4382,8 +4382,8 @@
     <word id="17" cid="32933864" form="γηγενοῦς" lemma="γηγενής1" postag="a-s---mg-" head="16" relation="ATR"/>
     <word id="18" cid="32933865" form="," lemma="ξομμα1" postag="u--------" head="0" relation="COORD"/>
     <word id="19" cid="32933866" form="ἄλευ᾽" lemma="ἀλεύω1" postag="v2spma---" head="18" relation="PRED_CO"/>
-    <word id="20" cid="32933867" form="ἆ" lemma="ἆ1" postag="e--------" head="21" relation="AuxZ"/>
-    <word id="21" cid="32933868" form="δᾶ" lemma="δᾶ1" postag="e--------" head="19" relation="ExD"/>
+    <word id="20" cid="32933867" form="ἆ" lemma="ἆ1" postag="i--------" head="21" relation="AuxZ"/>
+    <word id="21" cid="32933868" form="δᾶ" lemma="δᾶ1" postag="i--------" head="19" relation="ExD"/>
     <word id="22" cid="32933869" form=":" lemma="πυνξ1" postag="u--------" head="0" relation="AuxK"/>
   </sentence>
   <sentence id="2196709" document_id="Perseus:text:1999.01.0009" subdoc="card=566" span="φοβοῦμαι0:.0">
@@ -4447,9 +4447,9 @@
   </sentence>
   <sentence id="2196713" document_id="Perseus:text:1999.01.0009" subdoc="card=575" span="ἰὼ0:;0">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32933916" form="ἰὼ" lemma="ἰώ1" postag="e--------" head="2" relation="AuxY"/>
-    <word id="2" cid="32933917" form="ἰὼ" lemma="ἰώ1" postag="e--------" head="3" relation="AuxZ"/>
-    <word id="3" cid="32933918" form="πόποι" lemma="πόποι1" postag="e--------" head="7" relation="ExD"/>
+    <word id="1" cid="32933916" form="ἰὼ" lemma="ἰώ1" postag="i--------" head="2" relation="AuxY"/>
+    <word id="2" cid="32933917" form="ἰὼ" lemma="ἰώ1" postag="i--------" head="3" relation="AuxZ"/>
+    <word id="3" cid="32933918" form="πόποι" lemma="πόποι1" postag="i--------" head="7" relation="ExD"/>
     <word id="4" cid="32933919" form="," lemma="ξομμα1" postag="u--------" head="3" relation="AuxX"/>
     <word id="5" cid="32933920" form="ποῖ" lemma="ποῖ1" postag="d--------" head="7" relation="OBJ"/>
     <word id="6" cid="32933921" form="μ᾽" lemma="ἐγώ1" postag="p-s---ma-" head="7" relation="OBJ"/>
@@ -4466,7 +4466,7 @@
     <word id="2" cid="32933929" form="ποτέ" lemma="ποτέ1" postag="d--------" head="1" relation="AuxZ"/>
     <word id="3" cid="32933930" form="μ᾽" lemma="ἐγώ1" postag="p-s---fa-" head="12" relation="OBJ"/>
     <word id="4" cid="32933931" form="," lemma="ξομμα1" postag="u--------" head="7" relation="AuxX"/>
-    <word id="5" cid="32933932" form="ὦ" lemma="ὦ1" postag="e--------" head="7" relation="AuxZ"/>
+    <word id="5" cid="32933932" form="ὦ" lemma="ὦ1" postag="i--------" head="7" relation="AuxZ"/>
     <word id="6" cid="32933933" form="Κρόνιε" lemma="Κρόνιος1" postag="a-s---mv-" head="7" relation="ATR"/>
     <word id="7" cid="32933934" form="παῖ" lemma="παῖς1" postag="n-s---mv-" head="12" relation="ExD"/>
     <word id="8" cid="32933935" form="," lemma="ξομμα1" postag="u--------" head="7" relation="AuxX"/>
@@ -4482,8 +4482,8 @@
   </sentence>
   <sentence id="2196715" document_id="Perseus:text:1999.01.0009" subdoc="card=575" span="ἓ0:;2">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32933945" form="ἓ" lemma="ἕ" postag="e--------" head="2" relation="AuxY"/>
-    <word id="2" cid="32933946" form="ἕ" lemma="ἕ" postag="e--------" head="10" relation="ExD"/>
+    <word id="1" cid="32933945" form="ἓ" lemma="ἕ" postag="i--------" head="2" relation="AuxY"/>
+    <word id="2" cid="32933946" form="ἕ" lemma="ἕ" postag="i--------" head="10" relation="ExD"/>
     <word id="3" cid="32933947" form="," lemma="ξομμα1" postag="u--------" head="2" relation="AuxY"/>
     <word id="4" cid="32933948" form="οἰστρηλάτῳ" lemma="οἰστρήλατος1" postag="a-s---nd-" head="6" relation="ATR"/>
     <word id="5" cid="32933949" form="δὲ" lemma="δέ1" postag="d--------" head="10" relation="AuxY"/>
@@ -4605,7 +4605,7 @@
     <word id="2" cid="32934039" form="ἄρα" lemma="ἄρα1" postag="d--------" head="1" relation="AuxZ"/>
     <word id="3" cid="32934040" form="μ᾽" lemma="ἐγώ1" postag="p-s---fa-" head="12" relation="OBJ"/>
     <word id="4" cid="32934041" form="," lemma="ξομμα1" postag="u--------" head="6" relation="AuxX"/>
-    <word id="5" cid="32934042" form="ὦ" lemma="ὦ1" postag="e--------" head="6" relation="AuxZ"/>
+    <word id="5" cid="32934042" form="ὦ" lemma="ὦ1" postag="i--------" head="6" relation="AuxZ"/>
     <word id="6" cid="32934043" form="τάλας" lemma="τάλας1" postag="a-s---mn-" head="12" relation="ExD"/>
     <word id="7" cid="32934044" form="," lemma="ξομμα1" postag="u--------" head="6" relation="AuxX"/>
     <word id="8" cid="32934045" form="τὰν" lemma="ὁ" postag="l-s---fa-" head="9" relation="ATR"/>
@@ -4628,11 +4628,11 @@
     <word id="9" cid="32934059" form="χρίουσα" lemma="χρίω1" postag="v-sppafn-" head="7" relation="ADV"/>
     <word id="10" cid="32934060" form="κέντροις" lemma="κέντρον1" postag="n-p---nd-" head="9" relation="OBJ"/>
     <word id="11" cid="32934061" form="," lemma="ξομμα1" postag="u--------" head="12" relation="AuxX"/>
-    <word id="12" cid="32934062" form="ἰώ" lemma="ἰώ1" postag="e--------" head="9" relation="ExD"/>
+    <word id="12" cid="32934062" form="ἰώ" lemma="ἰώ1" postag="i--------" head="9" relation="ExD"/>
     <word id="13" cid="32934063" form="," lemma="ξομμα1" postag="u--------" head="12" relation="AuxX"/>
     <word id="14" cid="32934064" form="φοιταλέοισιν" lemma="φοιταλέος1" postag="a-p---nd-" head="10" relation="ATR"/>
-    <word id="15" cid="32934065" form="ἓ" lemma="ἕ" postag="e--------" head="16" relation="AuxY"/>
-    <word id="16" cid="32934066" form="ἕ" lemma="ἕ" postag="e--------" head="9" relation="ExD"/>
+    <word id="15" cid="32934065" form="ἓ" lemma="ἕ" postag="i--------" head="16" relation="AuxY"/>
+    <word id="16" cid="32934066" form="ἕ" lemma="ἕ" postag="i--------" head="9" relation="ExD"/>
     <word id="17" cid="32934067" form=":" lemma="πυνξ1" postag="u--------" head="0" relation="AuxK"/>
   </sentence>
   <sentence id="2196725" document_id="Perseus:text:1999.01.0009" subdoc="card=593" span="σκιρτημάτων0:.0">
@@ -4659,8 +4659,8 @@
     <word id="5" cid="32934084" form="τίνες" lemma="τίς" postag="p-p---mn-" head="0" relation="PNOM_ExD0_PRED"/>
     <word id="6" cid="32934085" form="οἵ" lemma="ὅς1" postag="p-p---mn-" head="13" relation="SBJ"/>
     <word id="7" cid="32934086" form="," lemma="ξομμα1" postag="u--------" head="9" relation="AuxX"/>
-    <word id="8" cid="32934087" form="ἓ" lemma="ἕ" postag="e--------" head="9" relation="AuxY"/>
-    <word id="9" cid="32934088" form="ἕ" lemma="ἕ" postag="e--------" head="0" relation="ExD_ExD0_PRED"/>
+    <word id="8" cid="32934087" form="ἓ" lemma="ἕ" postag="i--------" head="9" relation="AuxY"/>
+    <word id="9" cid="32934088" form="ἕ" lemma="ἕ" postag="i--------" head="0" relation="ExD_ExD0_PRED"/>
     <word id="10" cid="32934089" form="," lemma="ξομμα1" postag="u--------" head="9" relation="AuxX"/>
     <word id="11" cid="32934090" form="οἷ᾽" lemma="οἷος1" postag="a-p---na-" head="13" relation="OBJ_ExD1_OBJ"/>
     <word id="12" cid="32934091" form="ἐγὼ" lemma="ἐγώ1" postag="p-s---mn-" head="13" relation="SBJ_ExD1_OBJ"/>
@@ -4740,7 +4740,7 @@
   </sentence>
   <sentence id="2196731" document_id="Perseus:text:1999.01.0009" subdoc="card=609" span="ὦ0:;0">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32934153" form="ὦ" lemma="ὦ1" postag="e--------" head="5" relation="AuxZ"/>
+    <word id="1" cid="32934153" form="ὦ" lemma="ὦ1" postag="i--------" head="5" relation="AuxZ"/>
     <word id="2" cid="32934154" form="κοινὸν" lemma="κοινός1" postag="a-s---nn-" head="3" relation="ATR"/>
     <word id="3" cid="32934155" form="ὠφέλημα" lemma="ὠφέλημα1" postag="n-s---nn-" head="5" relation="PNOM"/>
     <word id="4" cid="32934156" form="θνητοῖσιν" lemma="θνητός1" postag="a-p---nd-" head="5" relation="OBJ"/>
@@ -5068,7 +5068,7 @@
     <word id="11" cid="32934400" form="λείοισι" lemma="λεῖος1" postag="a-p---md-" head="12" relation="ATR"/>
     <word id="12" cid="32934401" form="μύθοις" lemma="μῦθος1" postag="n-p---md-" head="10" relation="OBJ"/>
     <word id="13" cid="32934402" form="&#34;" lemma="θυοτε1" postag="u--------" head="20" relation="AuxG"/>
-    <word id="14" cid="32934403" form="ὦ" lemma="ὦ1" postag="e--------" head="17" relation="AuxZ"/>
+    <word id="14" cid="32934403" form="ὦ" lemma="ὦ1" postag="i--------" head="17" relation="AuxZ"/>
     <word id="15" cid="32934404" form="μέγ᾽" lemma="μέγας1" postag="a-s---na-" head="16" relation="AuxZ"/>
     <word id="16" cid="32934405" form="εὔδαιμον" lemma="εὐδαίμων" postag="a-s---fv-" head="17" relation="ATR"/>
     <word id="17" cid="32934406" form="κόρη" lemma="κόρη1" postag="n-s---fv-" head="20" relation="ExD"/>
@@ -5104,7 +5104,7 @@
     <word id="1" cid="32934430" form="σὺ" lemma="σύ1" postag="p-s---fn-" head="3" relation="ExD_AP"/>
     <word id="2" cid="32934431" form="δ᾽" lemma="δέ1" postag="d--------" head="14" relation="AuxY"/>
     <word id="3" cid="32934432" form="," lemma="ξομμα1" postag="u--------" head="14" relation="APOS"/>
-    <word id="4" cid="32934433" form="ὦ" lemma="ὦ1" postag="e--------" head="5" relation="AuxZ"/>
+    <word id="4" cid="32934433" form="ὦ" lemma="ὦ1" postag="i--------" head="5" relation="AuxZ"/>
     <word id="5" cid="32934434" form="παῖ" lemma="παῖς1" postag="n-s---mv-" head="3" relation="ExD_AP"/>
     <word id="6" cid="32934435" form="," lemma="ξομμα1" postag="u--------" head="3" relation="AuxX"/>
     <word id="7" cid="32934436" form="μὴ" lemma="μή1" postag="c--------" head="9" relation="AuxZ"/>
@@ -5387,12 +5387,12 @@
   </sentence>
   <sentence id="2196775" document_id="Perseus:text:1999.01.0009" subdoc="card=687" span="ἔα0::0">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32934667" form="ἔα" lemma="ἔα1" postag="e--------" head="2" relation="AuxY"/>
-    <word id="2" cid="32934668" form="ἔα" lemma="ἔα1" postag="e--------" head="4" relation="ExD"/>
+    <word id="1" cid="32934667" form="ἔα" lemma="ἔα1" postag="i--------" head="2" relation="AuxY"/>
+    <word id="2" cid="32934668" form="ἔα" lemma="ἔα1" postag="i--------" head="4" relation="ExD"/>
     <word id="3" cid="32934669" form="," lemma="ξομμα1" postag="u--------" head="2" relation="AuxX"/>
     <word id="4" cid="32934670" form="ἄπεχε" lemma="ἀπέχω1" postag="v2spma---" head="0" relation="PRED"/>
     <word id="5" cid="32934671" form="," lemma="ξομμα1" postag="u--------" head="6" relation="AuxX"/>
-    <word id="6" cid="32934672" form="φεῦ" lemma="φεῦ1" postag="e--------" head="4" relation="AuxY"/>
+    <word id="6" cid="32934672" form="φεῦ" lemma="φεῦ1" postag="i--------" head="4" relation="AuxY"/>
     <word id="7" cid="32934673" form=":" lemma="πυνξ1" postag="u--------" head="0" relation="AuxK"/>
   </sentence>
   <sentence id="2196776" document_id="Perseus:text:1999.01.0009" subdoc="card=687" span="οὔποτ᾽0:.0">
@@ -5430,8 +5430,8 @@
   </sentence>
   <sentence id="2196777" document_id="Perseus:text:1999.01.0009" subdoc="card=687" span="ἰὼ0:.1">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32934703" form="ἰὼ" lemma="ἰώ1" postag="e--------" head="4" relation="AuxZ"/>
-    <word id="2" cid="32934704" form="[ἰὼ]" lemma="ἰώ1" postag="e--------" head="0" relation="UNDEFINED"/>
+    <word id="1" cid="32934703" form="ἰὼ" lemma="ἰώ1" postag="i--------" head="4" relation="AuxZ"/>
+    <word id="2" cid="32934704" form="[ἰὼ]" lemma="ἰώ1" postag="i--------" head="0" relation="UNDEFINED"/>
     <word id="3" cid="32934705" form="μοῖρα" lemma="μοῖρα1" postag="n-s---fv-" head="4" relation="AuxY"/>
     <word id="4" cid="32934706" form="μοῖρα" lemma="μοῖρα1" postag="n-s---fv-" head="6" relation="ExD"/>
     <word id="5" cid="32934707" form="," lemma="ξομμα1" postag="u--------" head="4" relation="AuxX"/>
@@ -5786,7 +5786,7 @@
     <word id="2" cid="32935000" form="δ᾽" lemma="δέ1" postag="d--------" head="3" relation="AuxY"/>
     <word id="3" cid="32935001" form="ἔκυρσας" lemma="κυρέω1" postag="v2saia---" head="0" relation="PRED"/>
     <word id="4" cid="32935002" form="," lemma="ξομμα1" postag="u--------" head="6" relation="AuxX"/>
-    <word id="5" cid="32935003" form="ὦ" lemma="ὦ1" postag="e--------" head="6" relation="AuxZ"/>
+    <word id="5" cid="32935003" form="ὦ" lemma="ὦ1" postag="i--------" head="6" relation="AuxZ"/>
     <word id="6" cid="32935004" form="κόρη" lemma="κόρη1" postag="n-s---fv-" head="3" relation="ExD"/>
     <word id="7" cid="32935005" form="," lemma="ξομμα1" postag="u--------" head="6" relation="AuxX"/>
     <word id="8" cid="32935006" form="τῶν" lemma="ὁ1" postag="l-p---mg-" head="10" relation="ATR"/>
@@ -5814,12 +5814,12 @@
   </sentence>
   <sentence id="2196801" document_id="Perseus:text:1999.01.0009" subdoc="card=742" span="ἰώ0:.0">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32935025" form="ἰώ" lemma="ἰώ1" postag="e--------" head="3" relation="AuxZ"/>
+    <word id="1" cid="32935025" form="ἰώ" lemma="ἰώ1" postag="i--------" head="3" relation="AuxZ"/>
     <word id="2" cid="32935026" form="μοί" lemma="ἐγώ1" postag="p-s---fd-" head="3" relation="AuxY"/>
     <word id="3" cid="32935027" form="μοι" lemma="ἐγώ1" postag="p-s---fd-" head="4" relation="ExD_CO"/>
     <word id="4" cid="32935028" form="," lemma="ξομμα1" postag="u--------" head="0" relation="COORD_ExD0_PRED"/>
-    <word id="5" cid="32935029" form="ἒ" lemma="ἒ1" postag="e--------" head="6" relation="AuxY"/>
-    <word id="6" cid="32935030" form="ἔ" lemma="ἒ1" postag="e--------" head="4" relation="ExD_CO"/>
+    <word id="5" cid="32935029" form="ἒ" lemma="ἒ1" postag="i--------" head="6" relation="AuxY"/>
+    <word id="6" cid="32935030" form="ἔ" lemma="ἒ1" postag="i--------" head="4" relation="ExD_CO"/>
     <word id="7" cid="32935031" form="." lemma="περιοδ1" postag="u--------" head="0" relation="AuxK"/>
   </sentence>
   <sentence id="2196802" document_id="Perseus:text:1999.01.0009" subdoc="card=742" span="σὺ0:;0">
@@ -7025,8 +7025,8 @@
   </sentence>
   <sentence id="2196885" document_id="Perseus:text:1999.01.0009" subdoc="card=877" span="ἐλελεῦ0::0">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32935988" form="ἐλελεῦ" lemma="ἐλελεῦ1" postag="e--------" head="2" relation="AuxY"/>
-    <word id="2" cid="32935989" form="ἐλελεῦ" lemma="ἐλελεῦ1" postag="e--------" head="14" relation="ExD"/>
+    <word id="1" cid="32935988" form="ἐλελεῦ" lemma="ἐλελεῦ1" postag="i--------" head="2" relation="AuxY"/>
+    <word id="2" cid="32935989" form="ἐλελεῦ" lemma="ἐλελεῦ1" postag="i--------" head="14" relation="ExD"/>
     <word id="3" cid="32935990" form="," lemma="ξομμα1" postag="u--------" head="2" relation="AuxX"/>
     <word id="4" cid="32935991" form="ὑπό" lemma="ὑπό1" postag="r--------" head="11" relation="AuxZ"/>
     <word id="5" cid="32935992" form="μ᾽" lemma="ἐγώ1" postag="p-s---ma-" head="11" relation="OBJ"/>
@@ -7134,7 +7134,7 @@
     <word id="2" cid="32936079" form="μήποτέ" lemma="μήποτε1" postag="d--------" head="14" relation="AuxZ"/>
     <word id="3" cid="32936080" form="μ᾽" lemma="ἐγώ1" postag="p-s---ma-" head="14" relation="OBJ"/>
     <word id="4" cid="32936081" form="," lemma="ξομμα1" postag="u--------" head="7" relation="AuxX"/>
-    <word id="5" cid="32936082" form="ὦ" lemma="ὦ1" postag="e--------" head="7" relation="AuxZ"/>
+    <word id="5" cid="32936082" form="ὦ" lemma="ὦ1" postag="i--------" head="7" relation="AuxZ"/>
     <word id="6" cid="32936083" form="πότνιαι" lemma="πότνια1" postag="n-p---fv-" head="7" relation="ATR"/>
     <word id="7" cid="32936084" form="Μοῖραι" lemma="μοῖρα1" postag="n-p---fv-" head="14" relation="ExD"/>
     <word id="8" cid="32936085" form="," lemma="ξομμα1" postag="u--------" head="7" relation="AuxX"/>
@@ -7928,12 +7928,12 @@
   </sentence>
   <sentence id="2196951" document_id="Perseus:text:1999.01.0009" subdoc="card=964" span="ὤμοι0:.10">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32936689" form="ὤμοι" lemma="ὤμοι1" postag="e--------" head="0" relation="ExD_ExD0_PRED"/>
+    <word id="1" cid="32936689" form="ὤμοι" lemma="ὤμοι1" postag="i--------" head="0" relation="ExD_ExD0_PRED"/>
     <word id="2" cid="32936690" form="." lemma="περιοδ1" postag="u--------" head="0" relation="AuxK"/>
   </sentence>
   <sentence id="2196952" document_id="Perseus:text:1999.01.0009" subdoc="card=964" span="ὤμοι1:;2">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32936691" form="ὤμοι" lemma="ὤμοι1" postag="e--------" head="0" relation="ExD_ExD0_PRED"/>
+    <word id="1" cid="32936691" form="ὤμοι" lemma="ὤμοι1" postag="i--------" head="0" relation="ExD_ExD0_PRED"/>
     <word id="2" cid="32936692" form=";" lemma="πυνξ1" postag="u--------" head="0" relation="AuxK"/>
   </sentence>
   <sentence id="2196953" document_id="Perseus:text:1999.01.0009" subdoc="card=964" span="τόδε0:.11">
@@ -8113,7 +8113,7 @@
     <annotator>FrancescoM</annotator>
     <word id="1" cid="32936826" form="τόλμησον" lemma="τολμάω1" postag="v2sama---" head="6" relation="AuxY"/>
     <word id="2" cid="32936827" form="," lemma="ξομμα1" postag="u--------" head="4" relation="AuxX"/>
-    <word id="3" cid="32936828" form="ὦ" lemma="ὦ1" postag="e--------" head="4" relation="AuxZ"/>
+    <word id="3" cid="32936828" form="ὦ" lemma="ὦ1" postag="i--------" head="4" relation="AuxZ"/>
     <word id="4" cid="32936829" form="μάταιε" lemma="μάταιος1" postag="a-s---mv-" head="6" relation="ExD"/>
     <word id="5" cid="32936830" form="," lemma="ξομμα1" postag="u--------" head="4" relation="AuxX"/>
     <word id="6" cid="32936831" form="τόλμησόν" lemma="τολμάω1" postag="v2sama---" head="0" relation="PRED"/>
@@ -8789,12 +8789,12 @@
   </sentence>
   <sentence id="2197010" document_id="Perseus:text:1999.01.0009" subdoc="card=1080" span="ὦ0:.2">
     <annotator>FrancescoM</annotator>
-    <word id="1" cid="32937364" form="ὦ" lemma="ὦ1" postag="e--------" head="4" relation="AuxZ"/>
+    <word id="1" cid="32937364" form="ὦ" lemma="ὦ1" postag="i--------" head="4" relation="AuxZ"/>
     <word id="2" cid="32937365" form="μητρὸς" lemma="μήτηρ1" postag="n-s---fg-" head="4" relation="ATR"/>
     <word id="3" cid="32937366" form="ἐμῆς" lemma="ἐμός1" postag="a-s---fg-" head="2" relation="ATR"/>
     <word id="4" cid="32937367" form="σέβας" lemma="σέβας1" postag="n-s---nv-" head="5" relation="ExD_CO"/>
     <word id="5" cid="32937368" form="," lemma="ξομμα1" postag="u--------" head="13" relation="COORD"/>
-    <word id="6" cid="32937369" form="ὦ" lemma="ὦ1" postag="e--------" head="8" relation="AuxZ"/>
+    <word id="6" cid="32937369" form="ὦ" lemma="ὦ1" postag="i--------" head="8" relation="AuxZ"/>
     <word id="7" cid="32937370" form="πάντων" lemma="πᾶς1" postag="a-p---mg-" head="9" relation="ATR"/>
     <word id="8" cid="32937371" form="αἰθὴρ" lemma="αἰθήρ1" postag="n-s---mn-" head="5" relation="ExD_CO"/>
     <word id="9" cid="32937372" form="κοινὸν" lemma="κοινός1" postag="a-s---na-" head="10" relation="ATR"/>

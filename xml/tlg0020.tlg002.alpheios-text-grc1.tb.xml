@@ -343,7 +343,7 @@
 		<primary>millermo</primary>
 		<primary>megluthin</primary>
 		<secondary>tovahk</secondary>
-		<word id="1" cid="24471858" form="ὦ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="24471858" form="ὦ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="24471859" form="Πέρση" lemma="Πέρσης1" postag="n-s---mv-" head="12" relation="ExD"/>
 		<word id="3" cid="24471860" form="," lemma="ξομμα1" postag="u--------" head="2" relation="AuxX"/>
 		<word id="4" cid="24471861" form="σὺ" lemma="σύ1" postag="p-s----n-" head="8" relation="SBJ"/>
@@ -2449,7 +2449,7 @@
 		<primary>millermo</primary>
 		<primary>megluthin</primary>
 		<secondary>tovahk</secondary>
-		<word id="1" cid="24473391" form="ὦ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="24473391" form="ὦ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="24473392" form="Πέρση" lemma="Πέρσης1" postag="n-s---mv-" head="10" relation="ExD"/>
 		<word id="3" cid="24473393" form="," lemma="ξομμα1" postag="u--------" head="2" relation="AuxX"/>
 		<word id="4" cid="24473394" form="σὺ" lemma="σύ1" postag="p-s----n-" head="10" relation="SBJ"/>
@@ -2865,7 +2865,7 @@
 		<primary>millermo</primary>
 		<primary>megluthin</primary>
 		<secondary>tovahk</secondary>
-		<word id="1" cid="24473685" form="ὦ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="24473685" form="ὦ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="24473686" form="βασιλῆς" lemma="βασιλεύς1" postag="n-p---mv-" head="6" relation="ExD"/>
 		<word id="3" cid="24473687" form="," lemma="ξομμα1" postag="u--------" head="2" relation="AuxX"/>
 		<word id="4" cid="24473688" form="ὑμεῖς" lemma="σύ1" postag="p-p----n-" head="6" relation="SBJ"/>
@@ -3141,7 +3141,7 @@
 		<primary>millermo</primary>
 		<primary>megluthin</primary>
 		<secondary>tovahk</secondary>
-		<word id="1" cid="24473900" form="ὦ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="24473900" form="ὦ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="24473901" form="Πέρση" lemma="Πέρσης1" postag="n-s---mv-" head="18" relation="ExD"/>
 		<word id="3" cid="24473902" form="," lemma="ξομμα1" postag="u--------" head="2" relation="AuxX"/>
 		<word id="4" cid="24473903" form="σὺ" lemma="σύ1" postag="p-s----n-" head="18" relation="SBJ"/>
@@ -6899,7 +6899,7 @@
 		<word id="15" cid="24476703" form="ῥοδοδάκτυλος" lemma="ῥοδοδάκτυλος1" postag="a-s---fn-" head="16" relation="ATR"/>
 		<word id="16" cid="24476704" form="Ηώς" lemma="Ἠώς" postag="n-s---fn-" head="14" relation="SBJ"/>
 		<word id="17" cid="24476705" form="," lemma="ξομμα1" postag="u--------" head="13" relation="AuxX"/>
-		<word id="18" cid="24476706" form="ὦ" lemma="ὦ1" postag="e--------" head="19" relation="AuxZ"/>
+		<word id="18" cid="24476706" form="ὦ" lemma="ὦ1" postag="i--------" head="19" relation="AuxZ"/>
 		<word id="19" cid="24476707" form="Πέρση" lemma="Πέρσης1" postag="n-s---mv-" head="23" relation="ExD"/>
 		<word id="20" cid="24476708" form="," lemma="ξομμα1" postag="u--------" head="19" relation="AuxX"/>
 		<word id="21" cid="24476709" form="τότε" lemma="τότε1" postag="d--------" head="23" relation="ADV"/>
@@ -7228,7 +7228,7 @@
 		<word id="1" cid="24476960" form="τύνη" lemma="σύ1" postag="p-s----n-" head="15" relation="SBJ"/>
 		<word id="2" cid="24476961" form="δ᾽" lemma="δέ1" postag="d--------" head="15" relation="AuxY"/>
 		<word id="3" cid="24476962" form="," lemma="ξομμα1" postag="u--------" head="5" relation="AuxX"/>
-		<word id="4" cid="24476963" form="ὦ" lemma="ὦ1" postag="e--------" head="5" relation="AuxZ"/>
+		<word id="4" cid="24476963" form="ὦ" lemma="ὦ1" postag="i--------" head="5" relation="AuxZ"/>
 		<word id="5" cid="24476964" form="Πέρση" lemma="Πέρσης1" postag="n-s---mv-" head="15" relation="ExD"/>
 		<word id="6" cid="24476965" form="," lemma="ξομμα1" postag="u--------" head="5" relation="AuxX"/>
 		<word id="7" cid="24476966" form="ἔργων" lemma="ἔργον1" postag="n-p---ng-" head="8" relation="OBJ"/>

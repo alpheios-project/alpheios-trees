@@ -1301,7 +1301,7 @@
 		<primary>megluthin</primary>
 		<primary>jackmitchell</primary>
 		<secondary>nicanor</secondary>
-		<word id="1" cid="32802560" form="εἰ" lemma="εἰ1" postag="e--------" head="11" relation="AuxY"/>
+		<word id="1" cid="32802560" form="εἰ" lemma="εἰ1" postag="i--------" head="11" relation="AuxY"/>
 		<word id="2" cid="32802561" form="δ᾽" lemma="δέ1" postag="d--------" head="0" relation="COORD"/>
 		<word id="3" cid="32802562" form="ἄγε" lemma="ἄγε1" postag="d--------" head="11" relation="AuxY"/>
 		<word id="4" cid="32802563" form="δή" lemma="δή1" postag="d--------" head="11" relation="AuxY"/>
@@ -1816,7 +1816,7 @@
 		<primary>jackmitchell</primary>
 		<secondary>nicanor</secondary>
 		<word id="1" cid="32802935" form="᾽" lemma="θυοτε1" postag="u--------" head="7" relation="AuxG"/>
-		<word id="2" cid="32802936" form="ὦ" lemma="ὦ1" postag="e--------" head="3" relation="AuxZ"/>
+		<word id="2" cid="32802936" form="ὦ" lemma="ὦ1" postag="i--------" head="3" relation="AuxZ"/>
 		<word id="3" cid="32802937" form="φίλοι" lemma="φίλος1" postag="a-p---mv-" head="7" relation="ExD"/>
 		<word id="4" cid="32802938" form="," lemma="ξομμα1" postag="u--------" head="3" relation="AuxX"/>
 		<word id="5" cid="32802939" form="οὐ" lemma="οὐ1" postag="d--------" head="7" relation="AuxZ"/>
@@ -2429,7 +2429,7 @@
 		<secondary>nicanor</secondary>
 		<word id="1" cid="32803394" form="&#34;" lemma="πυνξ1" postag="u--------" head="12" relation="AuxG"/>
 		<word id="2" cid="32803395" form="᾽" lemma="θυοτε1" postag="u--------" head="12" relation="AuxG"/>
-		<word id="3" cid="32803396" form="ὦ" lemma="ὦ1" postag="e--------" head="4" relation="AuxZ"/>
+		<word id="3" cid="32803396" form="ὦ" lemma="ὦ1" postag="i--------" head="4" relation="AuxZ"/>
 		<word id="4" cid="32803397" form="φίλοι" lemma="φίλος1" postag="a-p---mv-" head="12" relation="ExD"/>
 		<word id="5" cid="32803398" form="," lemma="ξομμα1" postag="u--------" head="4" relation="AuxX"/>
 		<word id="6" cid="32803399" form="οὐ" lemma="οὐ1" postag="d--------" head="12" relation="AuxZ"/>
@@ -3638,7 +3638,7 @@
 		<primary>jackmitchell</primary>
 		<secondary>nicanor</secondary>
 		<word id="1" cid="32804312" form="&#34;" lemma="θυοτε1" postag="u--------" head="16" relation="AuxG"/>
-		<word id="2" cid="32804313" form="ὦ" lemma="ὦ1" postag="e--------" head="3" relation="AuxZ"/>
+		<word id="2" cid="32804313" form="ὦ" lemma="ὦ1" postag="i--------" head="3" relation="AuxZ"/>
 		<word id="3" cid="32804314" form="φίλοι" lemma="φίλος1" postag="a-p---mv-" head="16" relation="ExD"/>
 		<word id="4" cid="32804315" form="," lemma="ξομμα1" postag="u--------" head="3" relation="AuxX"/>
 		<word id="5" cid="32804316" form="ἐν" lemma="ἐν1" postag="r--------" head="13" relation="AuxP"/>

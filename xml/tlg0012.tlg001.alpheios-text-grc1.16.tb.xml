@@ -337,7 +337,7 @@
 		<primary>millermo2</primary>
 		<primary>jfg</primary>
 		<secondary>millermo</secondary>
-		<word id="1" cid="34314002" form="ὦ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="34314002" form="ὦ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="34314003" form="Ἀχιλεῦ" lemma="ʼἀχιλλεύς1" postag="n-s---mv-" head="9" relation="ExD"/>
 		<word id="3" cid="34314004" form="Πηλῆος" lemma="Πηλεύς1" postag="n-s---mg-" head="4" relation="ATR"/>
 		<word id="4" cid="34314005" form="υἱὲ" lemma="υἱός1" postag="n-s---mv-" head="2" relation="ATR"/>
@@ -678,7 +678,7 @@
 		<primary>millermo2</primary>
 		<primary>jfg</primary>
 		<secondary>millermo</secondary>
-		<word id="1" cid="34314240" form="ὤ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="34314240" form="ὤ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="34314241" form="μοι" lemma="ἐγώ1" postag="p-s---md-" head="6" relation="AuxY"/>
 		<word id="3" cid="34314242" form="διογενὲς" lemma="διογενής1" postag="a-s---mv-" head="4" relation="ATR"/>
 		<word id="4" cid="34314243" form="Πατρόκλεες" lemma="πάτροκλος" postag="n-s---mv-" head="6" relation="ExD"/>
@@ -1196,7 +1196,7 @@
 		<primary>millermo2</primary>
 		<primary>jfg</primary>
 		<secondary>millermo</secondary>
-		<word id="1" cid="34314617" form="αἲ" lemma="αἴ1" postag="e--------" head="24" relation="AuxY"/>
+		<word id="1" cid="34314617" form="αἲ" lemma="αἴ1" postag="i--------" head="24" relation="AuxY"/>
 		<word id="2" cid="34314618" form="γὰρ" lemma="γάρ1" postag="d--------" head="24" relation="AuxY"/>
 		<word id="3" cid="34314619" form="Ζεῦ" lemma="Ζεύς1" postag="n-s---mv-" head="8" relation="ExD_CO"/>
 		<word id="4" cid="34314620" form="τε" lemma="τε1" postag="d--------" head="8" relation="AuxY"/>
@@ -4699,7 +4699,7 @@
 		<primary>jfg</primary>
 		<secondary>millermo</secondary>
 		<word id="1" cid="34317195" form="αἰδὼς" lemma="αἰδώς1" postag="n-s---fn-" head="0" relation="SBJ_ExD0_PRED"/>
-		<word id="2" cid="34317196" form="ὦ" lemma="ὦ1" postag="e--------" head="3" relation="AuxZ"/>
+		<word id="2" cid="34317196" form="ὦ" lemma="ὦ1" postag="i--------" head="3" relation="AuxZ"/>
 		<word id="3" cid="34317197" form="Λύκιοι" lemma="Λύκιοι1" postag="n-p---mv-" head="0" relation="ExD_ExD0_PRED"/>
 		<word id="4" cid="34317198" form=":" lemma="πυνξ1" postag="u--------" head="0" relation="AuxK"/>
 	</sentence>
@@ -4831,7 +4831,7 @@
 		<primary>alexlessie</primary>
 		<primary>jfg</primary>
 		<secondary>millermo</secondary>
-		<word id="1" cid="34317288" form="ὤ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="34317288" form="ὤ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="34317289" form="μοι" lemma="ἐγώ1" postag="p-s---md-" head="0" relation="AuxY_ExD0_PRED"/>
 		<word id="3" cid="34317290" form="ἐγών" lemma="ἐγώ1" postag="p-s---mn-" head="0" relation="SBJ_ExD0_PRED"/>
 		<word id="4" cid="34317291" form="," lemma="ξομμα1" postag="u--------" head="5" relation="AuxX"/>
@@ -6977,7 +6977,7 @@
 		<primary>alexlessie</primary>
 		<primary>jfg</primary>
 		<secondary>millermo</secondary>
-		<word id="1" cid="34318883" form="ὦ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="34318883" form="ὦ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="34318884" form="πέπον" lemma="πέπων1" postag="a-s---mv-" head="9" relation="AuxY"/>
 		<word id="3" cid="34318885" form="οὔ" lemma="οὐ1" postag="d--------" head="9" relation="AuxZ"/>
 		<word id="4" cid="34318886" form="τοι" lemma="τοι1" postag="d--------" head="9" relation="AuxY"/>
@@ -7383,7 +7383,7 @@
 		<primary>alexlessie</primary>
 		<primary>jfg</primary>
 		<secondary>millermo</secondary>
-		<word id="1" cid="34319201" form="εἰ" lemma="εἰ1" postag="e--------" head="31" relation="AuxY"/>
+		<word id="1" cid="34319201" form="εἰ" lemma="εἰ1" postag="i--------" head="31" relation="AuxY"/>
 		<word id="2" cid="34319202" form="δ᾽" lemma="δέ1" postag="d--------" head="31" relation="AuxY"/>
 		<word id="3" cid="34319203" form="ἄγε" lemma="ἄγε1" postag="d--------" head="31" relation="AuxY"/>
 		<word id="4" cid="34319204" form="νῦν" lemma="νῦν1" postag="d--------" head="10" relation="ADV"/>
@@ -7964,7 +7964,7 @@
 		<primary>alexlessie</primary>
 		<primary>jfg</primary>
 		<secondary>millermo</secondary>
-		<word id="1" cid="34319644" form="αἴθ᾽" lemma="εἴθε1" postag="e--------" head="4" relation="AuxY"/>
+		<word id="1" cid="34319644" form="αἴθ᾽" lemma="εἴθε1" postag="i--------" head="4" relation="AuxY"/>
 		<word id="2" cid="34319645" form="ὅσον" lemma="ὅσος1" postag="a-s---na-" head="3" relation="ADV"/>
 		<word id="3" cid="34319646" form="ἥσσων" lemma="ἥσσων1" postag="a-s---mnc" head="4" relation="PNOM"/>
 		<word id="4" cid="34319647" form="εἰμί" lemma="εἰμί1" postag="v1spia---" head="6" relation="ADV"/>
@@ -8217,8 +8217,8 @@
 		<primary>alexlessie</primary>
 		<primary>jfg</primary>
 		<secondary>millermo</secondary>
-		<word id="1" cid="34319833" form="ὢ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
-		<word id="2" cid="34319834" form="πόποι" lemma="πόποι1" postag="e--------" head="0" relation="AuxY_ExD0_PRED"/>
+		<word id="1" cid="34319833" form="ὢ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
+		<word id="2" cid="34319834" form="πόποι" lemma="πόποι1" postag="i--------" head="0" relation="AuxY_ExD0_PRED"/>
 		<word id="3" cid="34319835" form="ἦ" lemma="ἦ1" postag="d--------" head="0" relation="AuxY_ExD0_PRED"/>
 		<word id="4" cid="34319836" form="μάλ᾽" lemma="μάλα1" postag="d--------" head="5" relation="AuxZ"/>
 		<word id="5" cid="34319837" form="ἐλαφρὸς" lemma="ἐλαφρός1" postag="a-s---mn-" head="0" relation="PNOM_ExD0_PRED"/>
@@ -9171,7 +9171,7 @@
 		<primary>alexlessie</primary>
 		<primary>jfg</primary>
 		<secondary>millermo</secondary>
-		<word id="1" cid="34320559" form="ἆ" lemma="ἆ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="34320559" form="ἆ" lemma="ἆ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="34320560" form="δείλ᾽" lemma="δειλός1" postag="a-s---mv-" head="9" relation="ExD"/>
 		<word id="3" cid="34320561" form="," lemma="ξομμα1" postag="u--------" head="2" relation="AuxX"/>
 		<word id="4" cid="34320562" form="οὐ" lemma="οὐ1" postag="d--------" head="9" relation="AuxZ"/>

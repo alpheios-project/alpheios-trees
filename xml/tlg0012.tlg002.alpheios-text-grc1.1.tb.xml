@@ -404,8 +404,8 @@
 		<primary>megluthin</primary>
 		<secondary>david.bamman</secondary>
 		<word id="1" cid="32752628" form="&#34;" lemma="πυνξ1" postag="u--------" head="10" relation="AuxG"/>
-		<word id="2" cid="32752629" form="ὢ" lemma="ὦ1" postag="e--------" head="3" relation="AuxZ"/>
-		<word id="3" cid="32752630" form="πόποι" lemma="πόποι1" postag="e--------" head="10" relation="AuxY"/>
+		<word id="2" cid="32752629" form="ὢ" lemma="ὦ1" postag="i--------" head="3" relation="AuxZ"/>
+		<word id="3" cid="32752630" form="πόποι" lemma="πόποι1" postag="i--------" head="10" relation="AuxY"/>
 		<word id="4" cid="32752631" form="," lemma="ξομμα1" postag="u--------" head="3" relation="AuxX"/>
 		<word id="5" cid="32752632" form="οἷον" lemma="οἷος1" postag="a-s---na-" head="10" relation="ADV"/>
 		<word id="6" cid="32752633" form="δή" lemma="δή1" postag="d--------" head="10" relation="AuxY"/>
@@ -546,7 +546,7 @@
 		<primary>megluthin</primary>
 		<secondary>jackmitchell</secondary>
 		<word id="1" cid="32752740" form="&#34;" lemma="πυνξ1" postag="u--------" head="15" relation="AuxG"/>
-		<word id="2" cid="32752741" form="ὦ" lemma="ὦ1" postag="e--------" head="3" relation="AuxZ"/>
+		<word id="2" cid="32752741" form="ὦ" lemma="ὦ1" postag="i--------" head="3" relation="AuxZ"/>
 		<word id="3" cid="32752742" form="πάτερ" lemma="πατήρ" postag="n-s---mv-" head="15" relation="ExD"/>
 		<word id="4" cid="32752743" form="ἡμέτερε" lemma="ἡμέτερος1" postag="a-s---mv-" head="3" relation="ATR"/>
 		<word id="5" cid="32752744" form="Κρονίδη" lemma="Κρονίδης1" postag="n-s---mv-" head="3" relation="ATR"/>
@@ -938,7 +938,7 @@
 		<primary>megluthin</primary>
 		<secondary>jackmitchell</secondary>
 		<word id="1" cid="32753036" form="&#34;" lemma="πυνξ1" postag="u--------" head="33" relation="AuxG"/>
-		<word id="2" cid="32753037" form="ὦ" lemma="ὦ1" postag="e--------" head="3" relation="AuxZ"/>
+		<word id="2" cid="32753037" form="ὦ" lemma="ὦ1" postag="i--------" head="3" relation="AuxZ"/>
 		<word id="3" cid="32753038" form="πάτερ" lemma="πατήρ" postag="n-s---mv-" head="33" relation="ExD"/>
 		<word id="4" cid="32753039" form="ἡμέτερε" lemma="ἡμέτερος1" postag="a-s---mv-" head="3" relation="ATR"/>
 		<word id="5" cid="32753040" form="Κρονίδη" lemma="Κρονίδης1" postag="n-s---mv-" head="3" relation="ATR"/>
@@ -2846,8 +2846,8 @@
 		<primary>megluthin</primary>
 		<secondary>jackmitchell</secondary>
 		<word id="1" cid="32754497" form="&#34;" lemma="πυνξ1" postag="u--------" head="10" relation="AuxG"/>
-		<word id="2" cid="32754498" form="ὢ" lemma="ὦ1" postag="e--------" head="3" relation="AuxZ"/>
-		<word id="3" cid="32754499" form="πόποι" lemma="πόποι1" postag="e--------" head="10" relation="ExD"/>
+		<word id="2" cid="32754498" form="ὢ" lemma="ὦ1" postag="i--------" head="3" relation="AuxZ"/>
+		<word id="3" cid="32754499" form="πόποι" lemma="πόποι1" postag="i--------" head="10" relation="ExD"/>
 		<word id="4" cid="32754500" form="," lemma="ξομμα1" postag="u--------" head="3" relation="AuxX"/>
 		<word id="5" cid="32754501" form="ἦ" lemma="ἦ1" postag="d--------" head="10" relation="AuxY"/>
 		<word id="6" cid="32754502" form="δὴ" lemma="δή1" postag="d--------" head="10" relation="AuxY"/>

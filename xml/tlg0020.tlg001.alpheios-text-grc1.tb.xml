@@ -5397,7 +5397,7 @@
 		<word id="4" cid="34231938" form="ἀριδείκετ᾽" lemma="ἀριδείκετος1" postag="a-s---mv-" head="1" relation="ATR"/>
 		<word id="5" cid="34231939" form="ἀνάκτων" lemma="ἄναξ1" postag="n-p---mg-" head="4" relation="ATR"/>
 		<word id="6" cid="34231940" form="," lemma="ξομμα1" postag="u--------" head="4" relation="AuxX"/>
-		<word id="7" cid="34231941" form="ὦ" lemma="ὦ1" postag="e--------" head="8" relation="AuxZ"/>
+		<word id="7" cid="34231941" form="ὦ" lemma="ὦ1" postag="i--------" head="8" relation="AuxZ"/>
 		<word id="8" cid="34231942" form="πέπον" lemma="πέπων1" postag="a-s---mv-" head="12" relation="ExD"/>
 		<word id="9" cid="34231943" form="," lemma="ξομμα1" postag="u--------" head="8" relation="AuxX"/>
 		<word id="10" cid="34231944" form="ὡς" lemma="ὡς1" postag="d--------" head="12" relation="ADV"/>
@@ -5587,7 +5587,7 @@
 		<word id="5" cid="34232072" form="μήδεα" lemma="μῆδος1" postag="n-p---na-" head="6" relation="OBJ"/>
 		<word id="6" cid="34232073" form="εἰδώς" lemma="οἶδα1" postag="v-srpamv-" head="1" relation="ATR"/>
 		<word id="7" cid="34232074" form="," lemma="ξομμα1" postag="u--------" head="6" relation="AuxX"/>
-		<word id="8" cid="34232075" form="ὦ" lemma="ὦ1" postag="e--------" head="15" relation="AuxY"/>
+		<word id="8" cid="34232075" form="ὦ" lemma="ὦ1" postag="i--------" head="15" relation="AuxY"/>
 		<word id="9" cid="34232076" form="πέπον" lemma="πέπων1" postag="a-s---mv-" head="15" relation="ExD"/>
 		<word id="10" cid="34232077" form="," lemma="ξομμα1" postag="u--------" head="9" relation="AuxX"/>
 		<word id="11" cid="34232078" form="οὐκ" lemma="οὐ1" postag="d--------" head="15" relation="AuxZ"/>
