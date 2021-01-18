@@ -3971,7 +3971,7 @@
 		<primary>alexlessie</primary>
 		<secondary>jfg</secondary>
 		<word id="1" cid="32784350" form="&#34;" lemma="πυνξ1" postag="u--------" head="0" relation="AuxG"/>
-		<word id="2" cid="32784351" form="αἲ" lemma="εἰ1" postag="e--------" head="5" relation="AuxY"/>
+		<word id="2" cid="32784351" form="αἲ" lemma="εἰ1" postag="i--------" head="5" relation="AuxY"/>
 		<word id="3" cid="32784352" form="γὰρ" lemma="γάρ1" postag="d--------" head="5" relation="AuxY"/>
 		<word id="4" cid="32784353" form="τοῦτο" lemma="οὗτος1" postag="a-s---nn-" head="5" relation="SBJ"/>
 		<word id="5" cid="32784354" form="γένοιτο" lemma="γίγνομαι1" postag="v3saom---" head="0" relation="PRED"/>
@@ -4756,7 +4756,7 @@
 		<word id="2" cid="32784921" form="χαῖρε" lemma="χαίρω1" postag="v2spma---" head="0" relation="PRED"/>
 		<word id="3" cid="32784922" form="," lemma="ξομμα1" postag="u--------" head="6" relation="AuxX"/>
 		<word id="4" cid="32784923" form="πάτερ" lemma="πατήρ" postag="n-s---mv-" head="6" relation="ATR"/>
-		<word id="5" cid="32784924" form="ὦ" lemma="ὦ1" postag="e--------" head="4" relation="AuxZ"/>
+		<word id="5" cid="32784924" form="ὦ" lemma="ὦ1" postag="i--------" head="4" relation="AuxZ"/>
 		<word id="6" cid="32784925" form="ξεῖνε" lemma="ξένος1" postag="n-s---mv-" head="2" relation="ExD"/>
 		<word id="7" cid="32784926" form=":" lemma="πυνξ1" postag="u--------" head="0" relation="AuxK"/>
 	</sentence>

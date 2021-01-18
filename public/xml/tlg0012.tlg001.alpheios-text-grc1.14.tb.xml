@@ -542,7 +542,7 @@
 		<primary>alexlessie</primary>
 		<primary>tovahk</primary>
 		<secondary>jfg</secondary>
-		<word id="1" cid="34303857" form="ὦ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="34303857" form="ὦ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="34303858" form="Νέστορ" lemma="Νέστωρ1" postag="n-s---mv-" head="12" relation="ExD"/>
 		<word id="3" cid="34303859" form="Νηληϊάδη" lemma="νηληιάδης" postag="n-s---mv-" head="2" relation="ATR"/>
 		<word id="4" cid="34303860" form="μέγα" lemma="μέγας1" postag="a-s---nv-" head="5" relation="ATR"/>
@@ -617,8 +617,8 @@
 		<primary>alexlessie</primary>
 		<primary>tovahk</primary>
 		<secondary>jfg</secondary>
-		<word id="1" cid="34303912" form="ὢ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
-		<word id="2" cid="34303913" form="πόποι" lemma="πόποι1" postag="e--------" head="18" relation="ExD"/>
+		<word id="1" cid="34303912" form="ὢ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
+		<word id="2" cid="34303913" form="πόποι" lemma="πόποι1" postag="i--------" head="18" relation="ExD"/>
 		<word id="3" cid="34303914" form="ἦ" lemma="ἦ1" postag="d--------" head="18" relation="AuxY"/>
 		<word id="4" cid="34303915" form="ῥα" lemma="ἄρα1" postag="d--------" head="18" relation="AuxY"/>
 		<word id="5" cid="34303916" form="καὶ" lemma="καί1" postag="d--------" head="6" relation="AuxZ"/>
@@ -1012,7 +1012,7 @@
 		<primary>tovahk</primary>
 		<secondary>jfg</secondary>
 		<word id="1" cid="34304201" form="οὐλόμεν᾽" lemma="οὐλόμενος1" postag="a-s---mv-" head="3" relation="ExD"/>
-		<word id="2" cid="34304202" form="αἴθ᾽" lemma="εἴθε1" postag="e--------" head="3" relation="AuxY"/>
+		<word id="2" cid="34304202" form="αἴθ᾽" lemma="εἴθε1" postag="i--------" head="3" relation="AuxY"/>
 		<word id="3" cid="34304203" form="ὤφελλες" lemma="ὀφέλλω1" postag="v2siia---" head="0" relation="PRED"/>
 		<word id="4" cid="34304204" form="ἀεικελίου" lemma="ἀεικέλιος1" postag="a-s---mg-" head="5" relation="ATR"/>
 		<word id="5" cid="34304205" form="στρατοῦ" lemma="στρατός1" postag="n-s---mg-" head="7" relation="OBJ"/>
@@ -1208,7 +1208,7 @@
 		<primary>alexlessie</primary>
 		<primary>tovahk</primary>
 		<secondary>jfg</secondary>
-		<word id="1" cid="34304358" form="ὦ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="34304358" form="ὦ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="34304359" form="Ὀδυσεῦ" lemma="Ὀδυσσεύς1" postag="n-s---mv-" head="6" relation="ExD"/>
 		<word id="3" cid="34304360" form="μάλα" lemma="μάλα1" postag="d--------" head="6" relation="AuxZ"/>
 		<word id="4" cid="34304361" form="πώς" lemma="πως1" postag="d--------" head="3" relation="AuxZ"/>

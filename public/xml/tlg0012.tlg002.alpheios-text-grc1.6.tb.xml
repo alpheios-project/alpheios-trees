@@ -1389,7 +1389,7 @@
 		<primary>millermo</primary>
 		<secondary>jfg</secondary>
 		<word id="1" cid="32776702" form="&#34;" lemma="πυνξ1" postag="u--------" head="0" relation="AuxG"/>
-		<word id="2" cid="32776703" form="ὤ" lemma="ὦ1" postag="e--------" head="11" relation="AuxY"/>
+		<word id="2" cid="32776703" form="ὤ" lemma="ὦ1" postag="i--------" head="11" relation="AuxY"/>
 		<word id="3" cid="32776704" form="μοι" lemma="ἐγώ1" postag="p-s---md-" head="2" relation="AuxY"/>
 		<word id="4" cid="32776705" form="ἐγώ" lemma="ἐγώ1" postag="p-s---mn-" head="2" relation="AuxY"/>
 		<word id="5" cid="32776706" form="," lemma="ξομμα1" postag="u--------" head="2" relation="AuxX"/>
@@ -2882,7 +2882,7 @@
 		<primary>tovahk</primary>
 		<primary>millermo</primary>
 		<secondary>jfg</secondary>
-		<word id="1" cid="32777812" form="αἲ" lemma="εἰ1" postag="e--------" head="11" relation="AuxY"/>
+		<word id="1" cid="32777812" form="αἲ" lemma="εἰ1" postag="i--------" head="11" relation="AuxY"/>
 		<word id="2" cid="32777813" form="γὰρ" lemma="γάρ1" postag="d--------" head="1" relation="AuxZ"/>
 		<word id="3" cid="32777814" form="ἐμοὶ" lemma="ἐγώ1" postag="p-s---fd-" head="6" relation="ADV"/>
 		<word id="4" cid="32777815" form="τοιόσδε" lemma="τοιόσδε1" postag="p-s---mn-" head="6" relation="SBJ"/>

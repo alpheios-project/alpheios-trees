@@ -286,7 +286,7 @@
 		<primary>alexlessie</primary>
 		<primary>megluthin</primary>
 		<secondary>nicanor</secondary>
-		<word id="1" cid="34275851" form="ὦ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="34275851" form="ὦ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="34275852" form="φίλοι" lemma="φίλος1" postag="a-p---mv-" head="5" relation="ExD_AP_ExD0_APOS"/>
 		<word id="3" cid="34275853" form="Ἀργείων" lemma="Ἀργεῖος1" postag="a-p---mg-" head="4" relation="ATR"/>
 		<word id="4" cid="34275854" form="ἡγήτορες" lemma="ἡγήτωρ1" postag="n-p---mv-" head="5" relation="ExD_CO"/>
@@ -628,7 +628,7 @@
 		<primary>alexlessie</primary>
 		<primary>megluthin</primary>
 		<secondary>nicanor</secondary>
-		<word id="1" cid="34276098" form="εἰ" lemma="εἰ1" postag="e--------" head="5" relation="AuxY"/>
+		<word id="1" cid="34276098" form="εἰ" lemma="εἰ1" postag="i--------" head="5" relation="AuxY"/>
 		<word id="2" cid="34276099" form="δὲ" lemma="δέ1" postag="d--------" head="0" relation="COORD"/>
 		<word id="3" cid="34276100" form="καὶ" lemma="καί1" postag="d--------" head="4" relation="AuxZ"/>
 		<word id="4" cid="34276101" form="αὐτοὶ" lemma="αὐτός1" postag="a-p---mn-" head="5" relation="AtvV"/>
@@ -1417,7 +1417,7 @@
 		<primary>alexlessie</primary>
 		<primary>megluthin</primary>
 		<secondary>nicanor</secondary>
-		<word id="1" cid="34276664" form="ὦ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="34276664" form="ὦ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="34276665" form="γέρον" lemma="γέρων1" postag="n-s---mv-" head="8" relation="ExD"/>
 		<word id="3" cid="34276666" form="οὔ" lemma="οὐ1" postag="d--------" head="8" relation="AuxZ"/>
 		<word id="4" cid="34276667" form="τι" lemma="τις1" postag="p-s---na-" head="8" relation="ADV"/>
@@ -1950,7 +1950,7 @@
 		<primary>alexlessie</primary>
 		<primary>megluthin</primary>
 		<secondary>nicanor</secondary>
-		<word id="1" cid="34277070" form="εἰ" lemma="εἰ1" postag="e--------" head="10" relation="AuxY"/>
+		<word id="1" cid="34277070" form="εἰ" lemma="εἰ1" postag="i--------" head="10" relation="AuxY"/>
 		<word id="2" cid="34277071" form="δ᾽" lemma="δέ1" postag="d--------" head="0" relation="COORD"/>
 		<word id="3" cid="34277072" form="ἄγε" lemma="ἄγε1" postag="d--------" head="10" relation="AuxY"/>
 		<word id="4" cid="34277073" form="τοὺς" lemma="ὁ1" postag="p-p---ma-" head="7" relation="OBJ"/>
@@ -2875,7 +2875,7 @@
 		<primary>alexlessie</primary>
 		<primary>megluthin</primary>
 		<secondary>nicanor</secondary>
-		<word id="1" cid="34277761" form="ὦ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="34277761" form="ὦ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="34277762" form="πέπον" lemma="πέπων1" postag="a-s---mv-" head="8" relation="ExD"/>
 		<word id="3" cid="34277763" form="ἦ" lemma="ἦ1" postag="d--------" head="8" relation="AuxY"/>
 		<word id="4" cid="34277764" form="μὲν" lemma="μέν1" postag="d--------" head="8" relation="AuxY"/>
@@ -2997,7 +2997,7 @@
 		<primary>alexlessie</primary>
 		<primary>megluthin</primary>
 		<secondary>nicanor</secondary>
-		<word id="1" cid="34277848" form="εἰ" lemma="εἰ1" postag="e--------" head="6" relation="AuxY"/>
+		<word id="1" cid="34277848" form="εἰ" lemma="εἰ1" postag="i--------" head="6" relation="AuxY"/>
 		<word id="2" cid="34277849" form="δὲ" lemma="δέ1" postag="d--------" head="0" relation="COORD"/>
 		<word id="3" cid="34277850" form="σὺ" lemma="σύ1" postag="p-s----n-" head="6" relation="SBJ"/>
 		<word id="4" cid="34277851" form="μέν" lemma="μέν1" postag="d--------" head="9" relation="AuxY"/>
@@ -7332,7 +7332,7 @@
 		<word id="1" cid="34281167" form="εἴπ᾽" lemma="εἶπον1" postag="v2sama---" head="0" relation="PRED"/>
 		<word id="2" cid="34281168" form="ἄγε" lemma="ἄγε1" postag="d--------" head="1" relation="AuxY"/>
 		<word id="3" cid="34281169" form="μ᾽" lemma="ἐγώ1" postag="p-s---ma-" head="1" relation="OBJ"/>
-		<word id="4" cid="34281170" form="ὦ" lemma="ὦ1" postag="e--------" head="6" relation="AuxZ"/>
+		<word id="4" cid="34281170" form="ὦ" lemma="ὦ1" postag="i--------" head="6" relation="AuxZ"/>
 		<word id="5" cid="34281171" form="πολύαιν᾽" lemma="πολύαινος1" postag="a-s---mv-" head="6" relation="ATR"/>
 		<word id="6" cid="34281172" form="Ὀδυσεῦ" lemma="Ὀδυσσεύς1" postag="n-s---mv-" head="1" relation="ExD_AP_ExD0_APOS"/>
 		<word id="7" cid="34281173" form="μέγα" lemma="μέγας1" postag="a-s---nv-" head="8" relation="ATR"/>

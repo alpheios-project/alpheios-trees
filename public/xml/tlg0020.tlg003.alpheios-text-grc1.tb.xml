@@ -823,7 +823,7 @@
 		<primary>samzukoff</primary>
 		<secondary>alexlessie</secondary>
 		<word id="1" cid="34224463" form="ἥρως" lemma="ἥρως1" postag="n-s---mv-" head="3" relation="ATR"/>
-		<word id="2" cid="34224464" form="ὦ" lemma="ὦ1" postag="e--------" head="3" relation="AuxZ"/>
+		<word id="2" cid="34224464" form="ὦ" lemma="ὦ1" postag="i--------" head="3" relation="AuxZ"/>
 		<word id="3" cid="34224465" form="Ἰόλαε" lemma="Ἰόλαος1" postag="n-s---mv-" head="20" relation="ExD"/>
 		<word id="4" cid="34224466" form="," lemma="ξομμα1" postag="u--------" head="3" relation="AuxX"/>
 		<word id="5" cid="34224467" form="βροτῶν" lemma="βροτός1" postag="n-p---mg-" head="7" relation="ADV"/>
@@ -1003,7 +1003,7 @@
 		<primary>dlliba10</primary>
 		<primary>samzukoff</primary>
 		<secondary>alexlessie</secondary>
-		<word id="1" cid="34224602" form="ὦ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="34224602" form="ὦ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="34224603" form="φίλος" lemma="φίλος1" postag="a-s---mv-" head="7" relation="ExD"/>
 		<word id="3" cid="34224604" form="," lemma="ξομμα1" postag="u--------" head="2" relation="AuxX"/>
 		<word id="4" cid="34224605" form="ἀλλὰ" lemma="ἀλλά1" postag="d--------" head="7" relation="AuxY"/>
@@ -1241,7 +1241,7 @@
 		<primary>samzukoff</primary>
 		<secondary>alexlessie</secondary>
 		<word id="1" cid="34224783" form="ἥρως" lemma="ἥρως1" postag="n-s---mv-" head="3" relation="ATR"/>
-		<word id="2" cid="34224784" form="ὦ" lemma="ὦ1" postag="e--------" head="3" relation="AuxZ"/>
+		<word id="2" cid="34224784" form="ὦ" lemma="ὦ1" postag="i--------" head="3" relation="AuxZ"/>
 		<word id="3" cid="34224785" form="Ἰόλαε" lemma="Ἰόλαος1" postag="n-s---mv-" head="0" relation="ExD_ExD0_PRED"/>
 		<word id="4" cid="34224786" form="," lemma="ξομμα1" postag="u--------" head="3" relation="AuxX"/>
 		<word id="5" cid="34224787" form="διοτρεφές" lemma="διοτρεφής1" postag="a-s---nv-" head="3" relation="ATR"/>
@@ -3830,7 +3830,7 @@
 		<primary>dlliba10</primary>
 		<primary>samzukoff</primary>
 		<secondary>jfg</secondary>
-		<word id="1" cid="34226706" form="ὦ" lemma="ὦ1" postag="e--------" head="2" relation="AuxZ"/>
+		<word id="1" cid="34226706" form="ὦ" lemma="ὦ1" postag="i--------" head="2" relation="AuxZ"/>
 		<word id="2" cid="34226707" form="πέπον" lemma="πέπων1" postag="a-s---mv-" head="11" relation="ExD"/>
 		<word id="3" cid="34226708" form="," lemma="ξομμα1" postag="u--------" head="2" relation="AuxX"/>
 		<word id="4" cid="34226709" form="οὐ" lemma="οὐ1" postag="d--------" head="11" relation="AuxZ"/>
